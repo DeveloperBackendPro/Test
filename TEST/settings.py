@@ -10,7 +10,7 @@ SECRET_KEY = env.str('SECRET_KEY')
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['159.89.17.148']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
