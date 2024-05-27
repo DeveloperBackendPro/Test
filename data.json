@@ -1,0 +1,5578 @@
+[
+  {
+    "model": "home.category",
+    "pk": 1,
+    "fields": {
+      "title": "Falsafa"
+    }
+  },
+  {
+    "model": "home.category",
+    "pk": 2,
+    "fields": {
+      "title": "Axborot xavfsizligi"
+    }
+  },
+  {
+    "model": "home.category",
+    "pk": 4,
+    "fields": {
+      "title": "Ehtimollar Nazariyasi va statistika"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 7,
+    "fields": {
+      "category": 1,
+      "questions": "\"Substantsiya\" so'zining ma'nosini aniqlang?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>mohiyat</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 8,
+    "fields": {
+      "category": 1,
+      "questions": "\"Substantsiya\" tushunchasining talqiniga daxldor quyidagi javoblardan biri noto'g'ri. Uni toping",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Platon: &quot;Substantsiya - bug&#39;oyalardir&quot;</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 9,
+    "fields": {
+      "category": 1,
+      "questions": "\"Umumiy nisbiylik nazariyasi” ta’limotining asoschisi kim?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Eynshteyn</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 10,
+    "fields": {
+      "category": 1,
+      "questions": "“Amaliyot” (“praktika”) tushunchasini ta’riflang.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Tabiiy va ijtimoiy borliqni qayta o&rsquo;zgartirishdagi moddiyhissiy faoliyat.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 11,
+    "fields": {
+      "category": 1,
+      "questions": "“Ayni bir daryoga ikki marta tushishi mumkin emas, ikkinchi marta tushayotgan odamga yangi suvlar oqadi” degan fikr qaysi faylasufga tegishli?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Geraklit</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 13,
+    "fields": {
+      "category": 1,
+      "questions": "“Davlat” asarini muallifi kim?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Platon</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 14,
+    "fields": {
+      "category": 1,
+      "questions": "“Dunyoqarash” nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Dunyo, inson haqidagi eng umumiy qarashlar, baholar va tamoyillar yig&rsquo;indisi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 15,
+    "fields": {
+      "category": 1,
+      "questions": "“Ezgu fikr, ezgu so‘z, ezgu amal” g‘oyasi kim tomonidan ilgari surilgan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Zardusht</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 16,
+    "fields": {
+      "category": 1,
+      "questions": "“Fazo (makon)” nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Materiyaning tuzilishi, qo&rsquo;lami va ma&rsquo;lum tartibda joylanishini ifodalovchi yashash usulidir.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 17,
+    "fields": {
+      "category": 1,
+      "questions": "“Haqiqat”ni siz qanday tushunasiz?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Haqiqat- bilimlarimizning obyektiv reallikka moskelishi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 18,
+    "fields": {
+      "category": 1,
+      "questions": "“Haqiqat”ning turlarini aniqlang.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Absolyut (mutloq) va nisbiy.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 19,
+    "fields": {
+      "category": 1,
+      "questions": "“Hayot” deganda Siz nimani tushunasiz?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Organizmningtashqimuhitbilanmoddaalmashinuvini.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 20,
+    "fields": {
+      "category": 1,
+      "questions": "“Ijtimoiy harakat” nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Jamiyatning faoliyat ko&rsquo;rsata olishini ta&rsquo;minlovchi moddiy va ma&rsquo;naviy jarayonlar</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 21,
+    "fields": {
+      "category": 1,
+      "questions": "“In’ikos” nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Materiyaning eng umumiy xossasi: aks ettirish.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 22,
+    "fields": {
+      "category": 1,
+      "questions": "“Jamiyat”tushunchasiga falsafiy ta’rif bering",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Ma&rsquo;lummaqsadniko&rsquo;zlab, o&rsquo;zixtiyorlaribilanuyushgankishilarto&rsquo;plami.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 23,
+    "fields": {
+      "category": 1,
+      "questions": "“Kategoriya” nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Borliq va bilishning muhim tamoyillari, munosabatlari,aloqalarini ifodalovchi eng umumiy falsafiy tushunchalar.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 24,
+    "fields": {
+      "category": 1,
+      "questions": "“Narsa o’zida” degan fikrni aytgan faylasuf kim?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Kant</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 25,
+    "fields": {
+      "category": 1,
+      "questions": "“Ong” nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Inson ruhiy in&rsquo;ikosining oliy shakli va uning faoliyatini tartibga soluvchi omil.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 26,
+    "fields": {
+      "category": 1,
+      "questions": "“Qonun” nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Narsa va hodisalarning muhim, zaruriy, umumiy va barqaror ichki bog&rsquo;lanishlari.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 27,
+    "fields": {
+      "category": 1,
+      "questions": "“Sifat” tushunchasi nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Narsalarning ichki va tashqi muayyanligini ta&rsquo;minlovchi xossa, belgi, xususiyatlar birligi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 28,
+    "fields": {
+      "category": 1,
+      "questions": "“Substantsiya” nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Xilma-xil buyum, hodisalar ichki birligini bildirib, u shu buyum, hodisalar vositasida va ular orqali mavjuddir</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 29,
+    "fields": {
+      "category": 1,
+      "questions": "“Taraqqiyot” nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Jamiyatdagi sifatiy o&rsquo;zgarish va rivojlanishlar.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 30,
+    "fields": {
+      "category": 1,
+      "questions": "«Falsafa» so‘zining lug‘aviy ma’nosi to‘g‘ri ko‘rsatilgan javobni belgilang?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>&ldquo;Filosofiya&rdquo; sozidan olingani va u &ldquo;donishmandlikni sevish&rdquo; degan ma&rsquo;noni anglatishi ta&rsquo;kidlanadi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 31,
+    "fields": {
+      "category": 1,
+      "questions": "Afsonaviy dunyoqarash deganda nimani tushunamiz?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Totemizm, fetishizm, animizm va magiya ko&#39;rinishidagi qarashlardir.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 32,
+    "fields": {
+      "category": 1,
+      "questions": "Aksiologiya qanday ta’limot?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Qadriyatlar falsafasi haqidagi ta&#39;limot</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 33,
+    "fields": {
+      "category": 1,
+      "questions": "Anaksimen olam asosiga nimni qo‘ygan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Havoni</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 34,
+    "fields": {
+      "category": 1,
+      "questions": "Antik falsafaning asosiy mohiyati nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Dunyo nimadan yaratilgan</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 35,
+    "fields": {
+      "category": 1,
+      "questions": "Antik falsafaning asosiy savoli?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Dunyo nimadan yaratilgan?</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 36,
+    "fields": {
+      "category": 1,
+      "questions": "Antropologiya qanday ta’limot",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Inson falsafasa haqidagi ta&#39;limot</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 37,
+    "fields": {
+      "category": 1,
+      "questions": "Bilish deganda nimani tushuniladi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Bilish bu ob&#39;ektiv olamning sub&#39;ektiv obrazidir.Bilish bu in&#39;ikos etishdir. Bilish bu his etish va sezishdir.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 38,
+    "fields": {
+      "category": 1,
+      "questions": "Borliqning atributlarini aniqlang?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Harakat, fazo, vaqt</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 39,
+    "fields": {
+      "category": 1,
+      "questions": "Borliqning falsafiy mazmuni nimada?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Borliq &ndash; obyektiv va subyektiv (ma&rsquo;naviy) realliklar birligidir</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 40,
+    "fields": {
+      "category": 1,
+      "questions": "Borliqning mohiyati bo'lmish substansiya nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Olamning asosida bitta mohiyat yotadi, Olamni asosi ruh-g oya yotadi, Olamni asosi muayyan narsa va hodisalar yig indisidan iborat</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 41,
+    "fields": {
+      "category": 1,
+      "questions": "Dualizm tushunchasining ma'nosi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>(lot. &laquo;dualis&raquo; &ndash; &laquo;ikki yoqlama&raquo;) birinchi asos sifatida ikkita substansiya tan olingan falsafiy yondashuv.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 42,
+    "fields": {
+      "category": 1,
+      "questions": "Dunyoni bilishdan maqsad nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Haqiqatni topish va uni kishilar amaliy faoliyatiga xizmat qildirish.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 43,
+    "fields": {
+      "category": 1,
+      "questions": "Dunyoni idrok etish bu?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Atrof borliqni ideal obrazlarda tasavvur qilishdir</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 44,
+    "fields": {
+      "category": 1,
+      "questions": "Dunyoni sezish bu?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Bu o&lsquo;zini qurshagan dunyoni sezgilar yordamida hissiy idrok etish</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 45,
+    "fields": {
+      "category": 1,
+      "questions": "Dunyoqarashning qadimgi turlari qaysi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Mifologik,Ilmiy,Falsafiy</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 46,
+    "fields": {
+      "category": 1,
+      "questions": "Dunyoqarashning turlarini aniqlang?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Afsonaviy, diniy, falsafiy</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 47,
+    "fields": {
+      "category": 1,
+      "questions": "Eng umumiy qonunlar deganda qanday qonunlarni tushunamiz?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Bu dialektika qonunlaridir, Falsafiy qonunlardir, Jamiyat qonunlaridir.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 48,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafa atamasini ilk bor ilmiy termin sifatida kiritgan olim?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Pifagor</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 49,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafa bo'limlari nomini aniqlang?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Antologiya, gnesologiya va antropologiya</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 50,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafa qanday ma’noni anglatadi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>&ldquo;Donishmandlikni sevish&rdquo;</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 51,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafada nima birinchi o‘rinda turadi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Savol, masala</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 52,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafaning asosiy vazifalari?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Metodologik, dunyoqarash, bilish, tarbiyaviy borliqning mavjudligini e&#39;tirof etish.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 53,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafaning bilish nazariyasi bilan bog’liq atamani toping",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Gnoseologiya</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 54,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafaning predmeti bu?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Borliq</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 55,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafaning qaysi funksiyasida “Haqiqat nima? Uning me’zonlari qanday?” degan savollar beriladi?.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Gnoseologik funksiyada</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 56,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafaning tarkibiy qismi hisoblanuvchi ontologiya qanday ta’limot?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>borliq va uning rivojlanishi to&rsquo;g&rsquo;risidagi ta&rsquo;limot</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 57,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafiy bilimning muhim tarkibiy qismlari to‘g‘ri ko‘rsatilgan javobni belgilang?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Ontologiya, gnoseologiya, fan metodologiyasi, ijtimoiyfalsafa, etika, aksiologiya, falsafiyantropologiya</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 58,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafiy dunyoqarash dunyoni nimalarga tayangan holda tushuntiradi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Aqlvabilimlarda</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 59,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafiy qarashlar tarixida dualizm qanday ta’limot hisoblanadi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Olamning asosi ikki narsadan yaralgan deguvchi ta&rsquo;limot</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 60,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafiy qarashlar tarixida monizm qanday ta’limot hisoblanadi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Olamning asosida, bitta asos yotadi deyuvchi ta&rsquo;limot</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 61,
+    "fields": {
+      "category": 1,
+      "questions": "Falsafiy tafakkurning eng qadimiy-ma'naviy negizlari qaysi mamlakatlarda keng yoyilgan edi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Misr, Bobil, Hindiston, Hitoy</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 62,
+    "fields": {
+      "category": 1,
+      "questions": "Faqat insonga xos xususiyatni aniqlang?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Dunyoni tushunish</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 63,
+    "fields": {
+      "category": 1,
+      "questions": "Fetishizm bu?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Uyokibumo&lsquo;jizakorpredmetningodamlarhayotidata&rsquo;sirko&lsquo;rsati shigasig&lsquo;inish</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 64,
+    "fields": {
+      "category": 1,
+      "questions": "Gnoseologik optimizm ta’limoti qanday qarashni ilgari suradi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Dunyoni anglash va bilish mumkin</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 65,
+    "fields": {
+      "category": 1,
+      "questions": "Gnoseologiya qanday ta’limot",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Bilish nazariyasi haqidagi ta&#39;liminot</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 66,
+    "fields": {
+      "category": 1,
+      "questions": "Grek faylasufi Demokritning fikricha dunyoning asosi qanday zarrachalardan tashkil topgan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Atomlar</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 67,
+    "fields": {
+      "category": 1,
+      "questions": "Hindiston falsafasining kurtaklari qaysi davrga kelib paydo bo’ldi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Miloddan avvalgi 2-ming yillikning oxiri-1-ming yillikning boshida</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 68,
+    "fields": {
+      "category": 1,
+      "questions": "Hissiy bilish shakllari (bosqichlari) qaysilar?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Sezgi, idrok, tasavvur.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 69,
+    "fields": {
+      "category": 1,
+      "questions": "Ilmiy bilishning shakllarini ajrating?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Gipoteza, tajriba, qiyoslash</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 70,
+    "fields": {
+      "category": 1,
+      "questions": "Ingliz faylasufi D.Yum falsafa yo'nalishining qaysi oqimini rivojlantirgan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Skeptizm oqimini rivojlantirgan</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 71,
+    "fields": {
+      "category": 1,
+      "questions": "Ingliz faylasufi J.Berkli falsafa yo'nalishining qaysi oqimini rivojlantirgan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Agnestizm oqimini rivojlantirgan</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 72,
+    "fields": {
+      "category": 1,
+      "questions": "Klassik mexanikaning qonunlarini qaysi olim ta’riflagan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>I.Nyuton</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 73,
+    "fields": {
+      "category": 1,
+      "questions": "Koinot atomlardan tashkil topgan degan g’oyani olg’a surganlar?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Levikipp va Demokrit.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 74,
+    "fields": {
+      "category": 1,
+      "questions": "Materialistlar deb qaysi toifadagi kishilarni aytish mumkin?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Olamniazaldan, moddiy deb, ongbumateriyaningmahsulideyuvchilar</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 75,
+    "fields": {
+      "category": 1,
+      "questions": "Materiya harakatining formalarini aniqlang?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Mehanik, fizik, Himik, biologic, Ijtimoiy, sotsial</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 76,
+    "fields": {
+      "category": 1,
+      "questions": "Materiyaning tuzilishi qaysi javobda to'g'ri ko'rsatilgan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Modda va maydondan iborat</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 77,
+    "fields": {
+      "category": 1,
+      "questions": "Metodologiya nima?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Bilish va o&#39;zgaruvchi faoliyat usullari to&#39;g risidagi ta&#39;limot</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 78,
+    "fields": {
+      "category": 1,
+      "questions": "Mif atamasi qanday ma’nolarni anglatadi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Rivoyat, afsona</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 79,
+    "fields": {
+      "category": 1,
+      "questions": "Miflar nimalar orqali ifodalanadi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Rivoyat, ertaklar</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 80,
+    "fields": {
+      "category": 1,
+      "questions": "Mifologiyada dastlab qanday masalalar qo‘yilgan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Dunyo qanday vujudga kelgan va u qanday rivojlanadi? Hayot va o&lsquo;lim nima?</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 81,
+    "fields": {
+      "category": 1,
+      "questions": "Milet maktab asoschisi kim?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Fales</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 82,
+    "fields": {
+      "category": 1,
+      "questions": "Milet maktabining qaysi namoyondasi olamning asosiga suvni qo‘ygan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Fales</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 83,
+    "fields": {
+      "category": 1,
+      "questions": "Nemis falsafasining asoschilaridan biri Immanuil Kant falsafasining mohiyatini aniqlang?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Narsa o&#39;zida va narsa biz uchun falsafasini yaratgan</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 84,
+    "fields": {
+      "category": 1,
+      "questions": "Nemis faylasufi Hegel falsafasini mohiyatini aniqlang?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Hamma mavjud narsalar aqlga muvofiqdir aqlga muvofiq narsalar mavjuddir</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 85,
+    "fields": {
+      "category": 1,
+      "questions": "Nisbiy haqiqat deb qanday haqiqatga aytiladi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Tugallanmagan haqiqatdir</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 86,
+    "fields": {
+      "category": 1,
+      "questions": "O’rta asr falsafasi negizida nima yotadi",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Kosmotsentrizm</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 87,
+    "fields": {
+      "category": 1,
+      "questions": "O’rta Osiyoda “Sharq uyg’onishi” davri (IX-XII asrlar) yirik namoyondalarini aniqlang.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Farg&rsquo;oniy, Forobiy, Ibn Sino, Beruniy.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 88,
+    "fields": {
+      "category": 1,
+      "questions": "O’tmish Sharq faylasuflari ijodidagi bosh g’oya?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Fozil jamoa va komil inson g&rsquo;oyasi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 89,
+    "fields": {
+      "category": 1,
+      "questions": "Ob’yektiv dunyoga va insonning undagi o‘rniga, odamzotning o‘zini qurshagan borliqqa va o‘z-o‘ziga bo‘lgan munosabatiga nisbatan yondashuvlar tizimi, bu ...",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Dunyoqarash</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 90,
+    "fields": {
+      "category": 1,
+      "questions": "Qadimgi falsafaning eng rivojlangan joyi qayerda?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Yunoniston(Gretsiya)da</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 91,
+    "fields": {
+      "category": 1,
+      "questions": "Qadimgi Grek faylasuflari Fales, Anaksimandr va Anaksimenlar ta'limotlarida borliq qanday hisoblangan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Suv, havo, apeyron</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 92,
+    "fields": {
+      "category": 1,
+      "questions": "Qadimgi hind falsafasining asosiy yodgorliklari?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>&laquo;Vedalar&rdquo;, &ldquo;Upanishadalar&rdquo;;</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 93,
+    "fields": {
+      "category": 1,
+      "questions": "Qadimgi hind falsafiy maktablarining ikki guruhi qaysi javobda to‘g‘ri ko‘rsatilgan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Astika va Nastika</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 94,
+    "fields": {
+      "category": 1,
+      "questions": "Qadimgi Hindistondagi maktablarni aniqlab bering?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Chorvaklar, joynizm, buddizm</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 95,
+    "fields": {
+      "category": 1,
+      "questions": "Qadimgi Hitoy falsafasidagi asosiy yo'nalishlarni aniqlang?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Konfutsiylik, daosizm</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 96,
+    "fields": {
+      "category": 1,
+      "questions": "Qaysi javobda Olamni fan va aqlga asoslangan xolda tushuntiruvchi dunyoqarash turi to’g’ri ko’rsatilgan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Ilmiy-falsafiy</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 97,
+    "fields": {
+      "category": 1,
+      "questions": "Quyidagilardan qaysi biri dialektik bilimlar sohasiga tegishli?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Rivojlanish va o&lsquo;zgarishla rhaqidagi ta&rsquo;limot</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 98,
+    "fields": {
+      "category": 1,
+      "questions": "Quyidagilardan qaysi javob dunyoqarashning tarixiy tiplari hisoblandai?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Mifologik,Diniy,IlmiyFalsafiy</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 99,
+    "fields": {
+      "category": 1,
+      "questions": "Quyidagilarning qaysi biri dinning funksiyasi emas?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Farovonlik funksiyasi</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 100,
+    "fields": {
+      "category": 1,
+      "questions": "So’fizm – tasavvuf falsafasining asosiy mohiyati nimada?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Ollohnitanish, ishqi ilohiyga erishishva u bilan qo&rsquo;shilib ketishda.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 101,
+    "fields": {
+      "category": 1,
+      "questions": "Tasavvuf tariqati bosqichlarini to’g’ri aniqlang",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Shariat, tariqat, ma&rsquo;rifat, haqiqat.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 102,
+    "fields": {
+      "category": 1,
+      "questions": "Ushbu fikr muallifini toping: -Odamlar o'zlarining xos xususiyatlariga va tabiiy ehtiyojlariga ko'ra jamiyat tuzadilar. Ularning harakat va fe'llarini dastavval bora-bora odatlarga aylanadigan tabiiy qobiliyatlar belgilaydi",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Forobiy</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 103,
+    "fields": {
+      "category": 1,
+      "questions": "Vaqtga berilgan to'g’ri ta'rifni toping?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Vaqt-bu narsalarni ketma-ket kelishidir</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 104,
+    "fields": {
+      "category": 1,
+      "questions": "Zardo'shtiylik ta'limoti qachon va qaerda paydo bo'lgan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Miloddan avvalgi X asrda Horazmda</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 105,
+    "fields": {
+      "category": 1,
+      "questions": "Zaruriyat va tasodif kategoriyasining mazmun va mohiyati nimadan iborat?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>Zaruriyat - muayyan sharoit vujudga kelganda ro&#39;yobga chiqishi shart bo&#39;lgan narsa va hodisalardir. Tasodif esa zaruriyatning namoyon bo&#39;lish shaklidir.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 106,
+    "fields": {
+      "category": 2,
+      "questions": "Konfidensiallikni ta’minlash bu - ?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>ruxsatsiz o&lsquo;qishdan himoyalash.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 107,
+    "fields": {
+      "category": 2,
+      "questions": "Foydalanuvchanlikni ta’minlash bu - ?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>ruxsatsiz bajarishdan himoyalash.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 108,
+    "fields": {
+      "category": 2,
+      "questions": "Yaxlitlikni ta’minlash bu - ?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>ruxsatsiz yozishdan himoyalash.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 109,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. Hujumchi kabi fikrlash ... kerak.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>bo&lsquo;lishi mumkin bo&lsquo;lgan xavfni oldini olish uchun</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 110,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. Tizimli fikrlash ... uchun kerak.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>kafolatlangan amallarni ta&rsquo;minlash</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 111,
+    "fields": {
+      "category": 2,
+      "questions": "Axborot xavfsizligida risk bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Manbaga zarar keltiradigan ichki yoki tashqi zaiflik ta&rsquo;sirida tahdid qilish ehtimoli.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 112,
+    "fields": {
+      "category": 2,
+      "questions": "Axborot xavfsizligida tahdid bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Aktivga zarar yetkazishi mumkin bo&lsquo;lgan istalmagan hodisa.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 113,
+    "fields": {
+      "category": 2,
+      "questions": "Axborot xavfsizligida aktiv bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tashkilot yoki foydalanuvchi uchun qadrli bo&lsquo;lgan ixtiyoriy narsa.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 114,
+    "fields": {
+      "category": 2,
+      "questions": "Axborot xavfsizligida zaiflik bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tahdidga sabab bo&lsquo;luvchi tashkilot aktivi yoki boshqaruv tizimidagi nuqson.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 115,
+    "fields": {
+      "category": 2,
+      "questions": "Axborot xavfsizligida boshqarish vositasi bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Natijasi zaiflik yoki tahdidga ta&rsquo;sir qiluvchi riskni o&lsquo;zgartiradigan harakatlar.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 116,
+    "fields": {
+      "category": 2,
+      "questions": "Har qanday vaziyatda biror bir hodisani yuzaga kelish ehtimoli qo‘shilsa ....",
+      "image": "",
+      "status": "True",
+      "answer": "<p>risk paydo bo&lsquo;ladi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 117,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. Denial of service (DOS) hujumi axborotni .... xususiyatini buzushga qaratilgan.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>foydalanuvchanlik</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 118,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. ... sohasi tashkil etuvchilar xavfsizligi, aloqa xavfsizligi va dasturiy ta’minotlar xavfsizligidan iborat.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tizim xavfsizligi</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 119,
+    "fields": {
+      "category": 2,
+      "questions": "Kriptologiya so‘ziga berilgan to‘g‘ri tavsifni toping?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Maxfiy shifrlarni yaratish va buzish fani va sanati.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 120,
+    "fields": {
+      "category": 2,
+      "questions": ".... kriptotizimni shifrlash va deshifrlash uchun sozlashda foydalaniladi",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Kriptografik kalit</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 121,
+    "fields": {
+      "category": 2,
+      "questions": "Kriptografiya so‘ziga berilgan to‘g‘ri tavsifni toping?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Maxfiy shifrlarni yaratish fani va sanati.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 122,
+    "fields": {
+      "category": 2,
+      "questions": "Kriptotahlil so‘ziga berilgan to‘g‘ri tavsifni toping?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Maxfiy shifrlarni buzish fani va sanati.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 123,
+    "fields": {
+      "category": 2,
+      "questions": "..... axborotni ifodalash uchun foydalaniladigan chekli sondagi belgilar to‘plami.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Alifbo</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 124,
+    "fields": {
+      "category": 2,
+      "questions": "Ma’lumot shifrlansa, natijasi .... bo‘ladi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>shifrmatn</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 125,
+    "fields": {
+      "category": 2,
+      "questions": "Deshifrlash uchun kalit va ..... kerak bo‘ladi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>shifrmatn</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 126,
+    "fields": {
+      "category": 2,
+      "questions": "Ma’lumotni shifrlash va deshifrlashda yagona kalitdan foydalanuvchi tizim bu -",
+      "image": "",
+      "status": "True",
+      "answer": "<p>simmetrik kriptotizim.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 127,
+    "fields": {
+      "category": 2,
+      "questions": "Ikki kalitli kriptotizim bu -",
+      "image": "",
+      "status": "True",
+      "answer": "<p>ochiq kalitli kriptotizim.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 128,
+    "fields": {
+      "category": 2,
+      "questions": "Axborotni mavjudligini yashirish bilan shug‘ullanuvchi fan sohasi bu -",
+      "image": "",
+      "status": "True",
+      "answer": "<p>steganografiya</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 129,
+    "fields": {
+      "category": 2,
+      "questions": "Axborotni foydalanuvchiga qulay tarzda taqdim etish uchun ..... amalga oshiriladi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>kodlash</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 130,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. Ma’lumotni konfidensialligini ta’minlash uchun ..... zarur.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>shifrlash</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 131,
+    "fields": {
+      "category": 2,
+      "questions": "Ma’lumotni mavjudligini yashirishda .....",
+      "image": "",
+      "status": "True",
+      "answer": "<p>steganografik algoritmdan foydalaniladi</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 132,
+    "fields": {
+      "category": 2,
+      "questions": "Xesh funksiyalar - .... funksiya",
+      "image": "",
+      "status": "True",
+      "answer": "<p>kalitsiz kriptografik</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 133,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. Ma’lumotni uzatishda kriptografik himoya .....",
+      "image": "",
+      "status": "True",
+      "answer": "<p>konfidensiallik va butunlikni ta&rsquo;minlaydi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 134,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. ... kompyuter davriga tegishli shifrlarga misol bo‘la oladi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>DES, AES shifri</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 135,
+    "fields": {
+      "category": 2,
+      "questions": ".... kriptografik shifrlash algoritmlari blokli va oqimli turlarga ajratiladi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Simmetrik</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 136,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. .... shifrlar tasodifiy ketmaketliklarni generatsiyalashga asoslanadi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Oqimli</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 137,
+    "fields": {
+      "category": 2,
+      "questions": "Ochiq matn qismlarini takroriy shifrlovchi algoritmlar bu -",
+      "image": "",
+      "status": "True",
+      "answer": "<p>blokli shifrlar</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 138,
+    "fields": {
+      "category": 2,
+      "questions": "A5/1 shifri bu -",
+      "image": "",
+      "status": "True",
+      "answer": "<p>oqimli shifr.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 139,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagi muammolardan qaysi biri simmetrik kriptotizimlarga xos.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Kalitni taqsimlash zaruriyati.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 140,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagi atamalardan qaysi biri faqat simmetrik blokli shifrlarga xos?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Blok uzunligi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 141,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. Sezar shifri .... akslantirishga asoslangan.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>o&lsquo;rniga qo&lsquo;yish</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 142,
+    "fields": {
+      "category": 2,
+      "questions": "Kriptotizimning to‘liq xavfsiz bo‘lishi Kerxgofs prinsipiga ko‘ra qaysi kattalikning nomalum bo‘lishiga asoslanadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Kalit</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 143,
+    "fields": {
+      "category": 2,
+      "questions": "Shifrlash va deshifrlashda turli kalitlardan foydalanuvchi shifrlar bu -",
+      "image": "",
+      "status": "True",
+      "answer": "<p>ochiq kalitli shifrlar</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 144,
+    "fields": {
+      "category": 2,
+      "questions": "Agar simmetrik kalitning uzunligi 64 bit bo‘lsa, jami bo‘lishi mumkin bo‘lgan kalitlar soni nechta?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>2 64</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 145,
+    "fields": {
+      "category": 2,
+      "questions": "Axborotni qaysi xususiyatlari simmetrik shifrlar yordamida ta’minlanadi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Konfidensiallik va butunlik.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 146,
+    "fields": {
+      "category": 2,
+      "questions": "Axborotni qaysi xususiyatlari ochiq kalitli",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Konfidensiallik</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 147,
+    "fields": {
+      "category": 2,
+      "questions": "shifrlar yordamida ta’minlanadi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>foydalanuvchanlik</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 148,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagilardan qaysi biri rad etishdan himoyani ta’minlaydi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Elektron raqamli imzo tizimi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 149,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi ochiq kalitli algoritm katta sonni faktorlash muammosiga asoslanadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>RSA algoritmi</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 150,
+    "fields": {
+      "category": 2,
+      "questions": ". Rad etishdan himoyalashda ochiq kalitli kriptotizimlarning qaysi xususiyati muhim hisoblanadi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Ikkita kalitdan foydalanilgani.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 151,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagi talablardan qaysi biri xesh funksiyaga tegishli emas.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Bir tomonlama funksiya bo&lsquo;lmasligi kerak.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 152,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagi xususiyatlardan qaysi biri elektron raqamli imzo tomonidan ta’minlanadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Axborot butunligini va rad etishdan himoyalash.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 153,
+    "fields": {
+      "category": 2,
+      "questions": "Faqat ma’lumotni butunligini ta’minlovchi kriptotizimlarni ko‘rsating",
+      "image": "",
+      "status": "True",
+      "answer": "<p>MAC (Xabarlarni autentifikatsiya kodlari) tizimlari</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 154,
+    "fields": {
+      "category": 2,
+      "questions": "Foydalanuvchini tizimga tanitish jarayoni bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Identifikatsiya</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 155,
+    "fields": {
+      "category": 2,
+      "questions": "Foydalanuvchini haqiqiyligini tekshirish jarayoni bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Autentifikatsiya</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 156,
+    "fields": {
+      "category": 2,
+      "questions": "Tizim tomonidan foydalanuvchilarga imtiyozlar berish jarayoni bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Avtorizatsiya</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 157,
+    "fields": {
+      "category": 2,
+      "questions": "Parolga asoslangan autentifikatsiya usulining asosiy kamchiligini ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Esda saqlash zaruriyati.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 158,
+    "fields": {
+      "category": 2,
+      "questions": "Biror narsani bilishga asoslangan autentifikatsiya deyilganda quyidagilardan qaysilar tushuniladi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>PIN, Parol.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 159,
+    "fields": {
+      "category": 2,
+      "questions": "Tokenga asoslangan autentifikatsiya usulining asosiy kamchiligini ayting?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Doimo xavfsiz saqlab olib yurish zaruriyati.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 160,
+    "fields": {
+      "category": 2,
+      "questions": "Esda saqlashni va olib yurishni talab etmaydigan autentifikatsiya usuli bu -",
+      "image": "",
+      "status": "True",
+      "answer": "<p>biometrik autentifikatsiya.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 161,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi biometrik parametr eng yuqori universallik xususiyatiga ega?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Yuz tasviri.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 162,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi biometrik parametr eng yuqori takrorlanmaslik xususiyatiga ega?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Ko&lsquo;z qorachig&lsquo;i.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 163,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagilardan qaysi biri har ikkala tomonning haqiqiyligini tekshirish jarayonini ifodalaydi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Ikki tomonlama autentifikatsiya.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 164,
+    "fields": {
+      "category": 2,
+      "questions": "Parolga asoslangan autentifikatsiya usuliga qaratilgan hujumlarni ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Parollar lug&lsquo;atidan foydalanish asosida hujum, yelka orqali qarash hujumi, zararli dasturlardan foydanish asosida hujum.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 165,
+    "fields": {
+      "category": 2,
+      "questions": "Tokenga asoslangan autentifikatsiya usuliga qaratilgan hujumlarni ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Fizik o&lsquo;g&lsquo;irlash, mobil qurilmalarda zararli dasturlardan foydalanishga asoslangan hujumlar</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 166,
+    "fields": {
+      "category": 2,
+      "questions": "Foydalanuvchi parollari bazada qanday ko‘rinishda saqlanadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Xeshlangan ko&lsquo;rinishda.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 167,
+    "fields": {
+      "category": 2,
+      "questions": "Agar parolning uzunligi 8 ta belgi va har bir o‘rinda 128 ta turlicha belgidan foydalanish mumkin bo‘lsa, bo‘lishi mumkin bo‘lgan jami parollar sonini toping.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>1288</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 168,
+    "fields": {
+      "category": 2,
+      "questions": "Parolni “salt” (tuz) kattaligidan foydalanib xeshlashdan (h(password, salt)) asosiy maqsad nima?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Buzg&lsquo;unchiga ortiqcha hisoblashni talab etuvchi murakkablikni yaratish.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 169,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagilardan qaysi biri tabiy tahdidga misol bo‘ladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Yong&lsquo;in, suv toshishi, harorat ortishi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 170,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi nazorat usuli axborotni fizik himoyalashda inson faktorini mujassamlashtirgan?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Ma&rsquo;muriy nazoratlash.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 171,
+    "fields": {
+      "category": 2,
+      "questions": "Faqat ob’ektning egasi tomonidan foydalanishga mos bo‘lgan mantiqiy foydalanish usulini ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Diskretsion foydalanishni boshqarish.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 172,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi usul ob’ektlar va sub’ektlarni klassifikatsiyalashga asoslangan?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Mandatli foydalanishni boshqarish.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 173,
+    "fields": {
+      "category": 2,
+      "questions": "Biror faoliyat turi bilan bog‘liq harakatlar va majburiyatlar to‘plami bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Rol</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 174,
+    "fields": {
+      "category": 2,
+      "questions": "Qoida, siyosat, qoida va siyosatni mujassamlashtirgan algoritmlar, majburiyatlar va maslahatlar kabi tushunchalar qaysi foydalanishni boshqarish usuliga aloqador",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Attributga asoslangan foydalanishni boshqarish.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 175,
+    "fields": {
+      "category": 2,
+      "questions": "Bell-Lapadula modeli axborotni qaysi xususiyatini ta’minlashni maqsad qiladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Konfidensiallik</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 176,
+    "fields": {
+      "category": 2,
+      "questions": "Biba modeli axborotni qaysi xususiyatini ta’minlashni maqsad qiladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Butunlik</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 177,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi turdagi shifrlash vositasida barcha kriptografik parametrlar kompyuterning ishtirokisiz generatsiya qilinadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Apparat</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 178,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi turdagi shifrlash vositasida shifrlash jarayonida boshqa dasturlar kabi kompyuter resursidan foydalanadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Dasturiy</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 179,
+    "fields": {
+      "category": 2,
+      "questions": "Yaratishda biror matematik muammoga asoslanuvchi shifrlash algoritmini ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Ochiq kalitli shifrlar.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 180,
+    "fields": {
+      "category": 2,
+      "questions": "Xesh funksiyalarda kolliziya hodisasi bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Ikki turli matnlarning xesh qiymatlarini bir xil bo&lsquo;lishi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 181,
+    "fields": {
+      "category": 2,
+      "questions": "64 ta belgidan iborat Sezar shifrlash usilida kalitni bilmasdan turib nechta urinishda ochiq matnni aniqlash mumkin?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>63</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 182,
+    "fields": {
+      "category": 2,
+      "questions": "Elektron raqamli imzo muolajalarini ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Imzoni shakllantirish va imkoni tekshirish.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 183,
+    "fields": {
+      "category": 2,
+      "questions": "“Yelka orqali qarash” hujumi qaysi turdagi autentifikatsiya usuliga qaratilgan.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Parolga asoslangan autentifikatsiya.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 184,
+    "fields": {
+      "category": 2,
+      "questions": "Sotsial injineriyaga asoslangan hujumlar qaysi turdagi autentifikatsiya usuliga qaratilgan.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Parolga asoslangan autentifikatsiya.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 185,
+    "fields": {
+      "category": 2,
+      "questions": "Yo‘qolgan holatda almashtirish qaysi turdagi autentifikatsiya usuli uchun eng arzon.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Parolga asoslangan autentifikatsiya.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 186,
+    "fields": {
+      "category": 2,
+      "questions": "Qalbakilashtirish hujumi qaysi turdagi autentifikatsiya usuliga qaratilgan.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Biometrik autentifikatsiya.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 187,
+    "fields": {
+      "category": 2,
+      "questions": "Axborotni butunligini ta’minlash usullarini ko‘rsating.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Xesh funksiyalar, MAC.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 188,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagilardan qaysi biri to‘liq kompyuter topologiyalarini ifodalamaydi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>LAN, GAN, OSI.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 189,
+    "fields": {
+      "category": 2,
+      "questions": "OSI tarmoq modeli nechta sathdan iborat?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>7</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 190,
+    "fields": {
+      "category": 2,
+      "questions": "TCP/IP tarmoq modeli nechta sathdan iborat?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>4</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 191,
+    "fields": {
+      "category": 2,
+      "questions": "Hajmi bo‘yicha eng kichik hisoblangan tarmoq turi bu -",
+      "image": "",
+      "status": "True",
+      "answer": "<p>PAN</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 192,
+    "fields": {
+      "category": 2,
+      "questions": "IPv6 protokolida IP manzilni ifodalashda necha bit ajratiladi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>128</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 193,
+    "fields": {
+      "category": 2,
+      "questions": "IP manzilni domen nomlariga yoki aksincha almashtirishni amalga oshiruvchi xizmat bu",
+      "image": "",
+      "status": "True",
+      "answer": "<p>DNS</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 194,
+    "fields": {
+      "category": 2,
+      "questions": "Natijasi tashkilotning amallariga va funksional harakatlariga zarar keltiruvchi hodisalarning potensial paydo bo‘lishi bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tahdid</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 195,
+    "fields": {
+      "category": 2,
+      "questions": "Zaiflik orqali AT tizimi xavfsizligini buzish tomon amalga oshirilgan harakat bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Hujum</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 196,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagilardan qaysi biri tarmoq xavfsizligi muammolariga sabab bo‘lmaydi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Routerlardan foydalanmaslik.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 197,
+    "fields": {
+      "category": 2,
+      "questions": "Tarmoq xavfsizligini buzulishi biznes faoliyatga qanday ta’sir qiladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Biznes faoliyatning buzilishi, huquqiy javobgarlikka sababchi bo&lsquo;ladi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 198,
+    "fields": {
+      "category": 2,
+      "questions": "Razvedka hujumlari bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Asosiy hujumlarni oson amalga oshirish uchun tashkilot va tarmoq haqidagi axborotni to&lsquo;plashni maqsad qiladi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 199,
+    "fields": {
+      "category": 2,
+      "questions": "Kirish hujumlari bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Turli texnologiyalardan foydalangan holda tarmoqqa kirishga harakat qiladi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 200,
+    "fields": {
+      "category": 2,
+      "questions": "Xizmatdan vos kechishga",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Foydalanuvchilarga</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 201,
+    "fields": {
+      "category": 2,
+      "questions": "qaratilgan hujumlar bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>va tashkilotlarda mavjud bo&lsquo;lgan biror xizmatni cheklashga urinadi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 202,
+    "fields": {
+      "category": 2,
+      "questions": "Paketlarni snifferlash, portlarni skanerlash va Ping buyrug‘ini yuborish hujumlari qaysi hujumlar toifasiga kiradi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Razvedka hujumlari.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 203,
+    "fields": {
+      "category": 2,
+      "questions": "O‘zini yaxshi va foydali dasturiy vosita sifatida ko‘rsatuvchi zararli dastur turi bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Troyan otlari.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 204,
+    "fields": {
+      "category": 2,
+      "questions": "Marketing maqsadida yoki reklamani namoyish qilish uchun foydalanuvchini ko‘rish rejimini kuzutib boruvchi zararli dastur turi bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Adware</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 205,
+    "fields": {
+      "category": 2,
+      "questions": "Himoya mexanizmini aylanib o‘tib tizimga ruxsatsiz kirish imkonini beruvchi zararli dastur turi bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Backdoors</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 206,
+    "fields": {
+      "category": 2,
+      "questions": "Paket filterlari turidagi tarmoqlararo ekran vositasi OSI modelining qaysi sathida ishlaydi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tarmoq sathida.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 207,
+    "fields": {
+      "category": 2,
+      "questions": "Tashqi tarmoqdagi foydalanuvchilardan ichki tarmoq resurslarini himoyalash qaysi himoya vositasining vazifasi hisoblanadi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tarmoqlararo ekran</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 208,
+    "fields": {
+      "category": 2,
+      "questions": "Ichki tarmoq foydalanuvchilarini tashqi tarmoqqa bo‘lgan murojaatlarini chegaralash qaysi himoya vositasining vazifasi hisoblanadi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tarmoqlararo ekran</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 209,
+    "fields": {
+      "category": 2,
+      "questions": "2 lik sanoq tizimida 11011 soniga 11010 sonini 2 modul bo‘yicha qo‘shing?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>00001</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 210,
+    "fields": {
+      "category": 2,
+      "questions": "2 lik sanoq tizimida 11011 soniga 00100 sonini 2 modul bo’yicha qo’shing?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>11111</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 211,
+    "fields": {
+      "category": 2,
+      "questions": ". 2 lik sanoq tizimida 11011 soniga 11010 sonini 2 modul bo’yicha qo’shing?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>00001</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 212,
+    "fields": {
+      "category": 2,
+      "questions": "Axborot saqlagich vositalaridan qayta foydalanish xususiyatini saqlab qolgan holda axborotni yo’q qilish usuli qaysi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Bir necha marta takroran yozish va maxsus dasturlar yordamida saqlagichni tozalash</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 213,
+    "fields": {
+      "category": 2,
+      "questions": "Elektron ma’lumotlarni yo’q qilishda maxsus qurilma ichida joylashtirilgan saqlagichning xususiyatlari o’zgartiriladigan usul bu ...",
+      "image": "",
+      "status": "True",
+      "answer": "<p>magnitsizlantirish</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 214,
+    "fields": {
+      "category": 2,
+      "questions": "Yo’q qilish usullari orasidan ekologik jihatdan ma’qullanmaydigan va maxsus joy talab qiladigan usul qaysi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Yoqish</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 215,
+    "fields": {
+      "category": 2,
+      "questions": "Kiberjinoyatchilik bu - ?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Kompyuter yoki boshqa qurilmalarga qarshi qilingan yoki kompyuter va boshqa&nbsp;qurilmalar orqali qilingan jinoiy faoliyat.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 216,
+    "fields": {
+      "category": 2,
+      "questions": "Kiberetika bu - ?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Kompyuterlar bilan bog&lsquo;liq falsafiy soha bo&lsquo;lib, foydalanuvchilarning xatti-harakatlari, kompyuterlar nimaga dasturlashtirilganligi va umuman insonlarga va jamiyatga qanday ta&rsquo;sir ko&lsquo;rsatishini o&lsquo;rganadi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 217,
+    "fields": {
+      "category": 2,
+      "questions": "Shaxsiy simsiz tarmoqlar qo‘llanish sohasini belgilang",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tashqi qurilmalar kabellarining o&lsquo;rnida</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 218,
+    "fields": {
+      "category": 2,
+      "questions": "VPNning texnik yechim arxitekturasiga ko’ra turlari keltirilgan qatorni aniqlang?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Korporativ tarmoq ichidagi VPN; masofadan foydalaniluvchi VPN; korporativ tarmoqlararo VPN</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 219,
+    "fields": {
+      "category": 2,
+      "questions": ". Axborotning konfidensialligi va butunligini ta’minlash uchun ikki uzel orasida himoyalangan tunelni quruvchi himoya vositasi bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Virtual Private Network</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 220,
+    "fields": {
+      "category": 2,
+      "questions": "Qanday tahdidlar passiv hisoblanadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Amalga oshishida axborot strukturasi va mazmunida hech narsani o&lsquo;zgartirmaydigan tahdidlar</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 221,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagi qaysi hujum turi razvedka hujumlari turiga kirmaydi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Ddos</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 222,
+    "fields": {
+      "category": 2,
+      "questions": "Trafik orqali axborotni to’plashga harakat qilish razvedka hujumlarining qaysi turida amalga oshiriladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Passiv</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 223,
+    "fields": {
+      "category": 2,
+      "questions": "Portlarni va operatsion tizimni skanerlash razvedka hujumlarining qaysi turida amalga oshiriladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Aktiv</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 224,
+    "fields": {
+      "category": 2,
+      "questions": "Paketlarni snifferlash, portlarni skanerlash, ping buyrug’ini yuborish qanday hujum turiga misol bo’ladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Razvedka hujumlari</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 225,
+    "fields": {
+      "category": 2,
+      "questions": "DNS serverlari tarmoqda qanday vazifani amalga oshiradi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Xost nomlari va internet nomlarini IP manzillarga o&rsquo;zgartirish va teskarisini amalga oshiradi</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 226,
+    "fields": {
+      "category": 2,
+      "questions": ". Markaziy xab yoki tugun orqali tarmoqni markazlashgan holda boshqarish qaysi tarmoq topologiyasida amalga",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Yulduz</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 227,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagilardan qaysilari ananaviy tarmoq turi hisoblanadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>WAN, MAN, LAN</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 228,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagilardan qaysilari tarmoq topologiyalari hisoblanadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Halqa, yulduz, shina, daraxt</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 229,
+    "fields": {
+      "category": 2,
+      "questions": "Yong’inga qarshi tizimlarni aktiv chora turiga quyidagilardan qaysilari kiradi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Yong&rsquo;inni aniqlash va bartaraf etish tizimi</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 230,
+    "fields": {
+      "category": 2,
+      "questions": "Yong‘inga qarshi kurashishning aktiv usuli to‘g‘ri ko‘rsatilgan javobni toping?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tutunni aniqlovchilar, alangani aniqlovchilar va issiqlikni aniqlovchilar</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 231,
+    "fields": {
+      "category": 2,
+      "questions": ". Yong‘inga qarshi kurashishning passiv usuliga kiruvchi choralarni to‘g‘ri ko‘rsatilgan javobni toping?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Minimal darajada yonuvchan materiallardan foydalanish, qo&lsquo;shimcha etaj va xonalar qurish</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 232,
+    "fields": {
+      "category": 2,
+      "questions": "Fizik himoyani buzilishiga olib keluvchi tahdidlar yuzaga kelish shakliga ko‘ra qanday guruhlarga bo‘linadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tabiy va sun&rsquo;iy</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 233,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagilarnnig qaysi biri tabiiy tahdidlarga misol bo’la oladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Toshqinlar, yong&rsquo;in, zilzila</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 234,
+    "fields": {
+      "category": 2,
+      "questions": "Quyidagilarnnig qaysi biri sun’iy tahdidlarga misol bo’la oladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Bosqinchilik, terrorizm, o&lsquo;g&lsquo;irlik</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 235,
+    "fields": {
+      "category": 2,
+      "questions": "Kolliziya hodisasi deb nimaga aytiladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>ikki xil matn uchun bir xil xesh qiymat chiqishi</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 236,
+    "fields": {
+      "category": 2,
+      "questions": "GSM tarmog‘ida foydanalaniluvchi shifrlash algoritmi nomini ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>A5/1</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 237,
+    "fields": {
+      "category": 2,
+      "questions": "O‘zbekistonda kriptografiya sohasida faoliyat yurituvchi tashkilot nomini ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>&ldquo;UNICON.UZ&rdquo; DUK</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 238,
+    "fields": {
+      "category": 2,
+      "questions": "RC4 shifrlash algoritmi simmetrik turga mansub bo‘lsa, unda nechta kalitdan foydalaniladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>1</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 239,
+    "fields": {
+      "category": 2,
+      "questions": "A5/1 shifrlash algoritmi simmetrik turga mansub bo‘lsa, unda nechta kalitdan foydalaniladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>1</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 240,
+    "fields": {
+      "category": 2,
+      "questions": "AES shifrlash algoritmi simmetrik turga mansub bo‘lsa, unda nechta kalitdan foydalaniladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>1</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 241,
+    "fields": {
+      "category": 2,
+      "questions": "DES shifrlash algoritmi simmetrik turga mansub bo‘lsa, unda nechta kalitdan foydalaniladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>1</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 242,
+    "fields": {
+      "category": 2,
+      "questions": "A5/1 oqimli shifrlash algoritmida maxfiy kalit necha registrga bo’linadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>3</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 243,
+    "fields": {
+      "category": 2,
+      "questions": "Faqat simmetrik blokli shifrlarga xos bo‘lgan atamani aniqlang?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>blok uzunligi</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 244,
+    "fields": {
+      "category": 2,
+      "questions": "A5/1 shifri qaysi turga mansub?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>oqimli shifrlar</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 245,
+    "fields": {
+      "category": 2,
+      "questions": ".... shifrlar blokli va oqimli turlarga ajratiladi",
+      "image": "",
+      "status": "True",
+      "answer": "<p>simmetrik</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 246,
+    "fields": {
+      "category": 2,
+      "questions": "Quyida keltirilgan xususiyatlarning qaysilari xesh funksiyaga mos?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>ixtiyoriy olingan har&nbsp;xil matn uchun xesh qiymatlar bir xil bo&lsquo;lmaydi</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 247,
+    "fields": {
+      "category": 2,
+      "questions": "Quyida keltirilgan xususiyatlarning qaysilari xesh funksiyaga mos?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>chiqishda fiksirlangan uzunlikdagi qiymatni beradi</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 248,
+    "fields": {
+      "category": 2,
+      "questions": "Xesh qiymatlarni yana qanday atash mumkin?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>dayjest</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 249,
+    "fields": {
+      "category": 2,
+      "questions": "A5/1 oqimli shifrlash algoritmida dastlabki kalit uzunligi nechi bitga teng?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>64</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 250,
+    "fields": {
+      "category": 2,
+      "questions": "A5/1 oqimli shifrlash algoritmi asosan qayerda qo‘llaniladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>mobil aloqa standarti GSM protokolida</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 251,
+    "fields": {
+      "category": 2,
+      "questions": "Assimetrik kriptotizimlarda necha kalitdan foydalaniladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>2 ta</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 252,
+    "fields": {
+      "category": 2,
+      "questions": "Simmetrik kriptotizimlarda necha kalitdan foydalaniladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>1 ta</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 253,
+    "fields": {
+      "category": 2,
+      "questions": "Kriptotizimlar kalitlar soni bo‘yicha qanday turga bo‘linadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>simmetrik va assimetrik turlarga</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 254,
+    "fields": {
+      "category": 2,
+      "questions": "Kriptologiya qanday yo‘nalishlarga bo‘linadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>kriptografiya va kriptotahlil</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 255,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi chora tadbirlar virusdan zararlanish holatini kamaytiradi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Barcha javoblar to&lsquo;g&lsquo;ri</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 256,
+    "fields": {
+      "category": 2,
+      "questions": "Antivirus dasturiy vositalari zararli dasturlarga qarshi to‘liq himoyani ta’minlay olmasligining asosiy sababini ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Paydo bo&lsquo;layotgan zararli dasturiy vositalar sonining ko&lsquo;pligi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 257,
+    "fields": {
+      "category": 2,
+      "questions": "… umumiy tarmoqni ichki va tashqi qismlarga ajratib himoyalash imkonini beradi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tarmoqlararo ekran</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 258,
+    "fields": {
+      "category": 2,
+      "questions": "RSA algoritmida p=5, q=13, e=7 ga teng bo‘lsa, shaxsiy kalitni hisoblang?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>7</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 259,
+    "fields": {
+      "category": 2,
+      "questions": "..... hujumida hujumchi o‘rnatilgan aloqaga suqilib kiradi va aloqani bo‘ladi. Nuqtalar o‘rniga mos javobni qo‘ying.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>O&lsquo;rtada turgan odam</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 260,
+    "fields": {
+      "category": 2,
+      "questions": "Agar ob’ektning xavfsizlik darajasi sub’ektning xavfsizlik darajasidan kichik yoki teng bo‘lsa, u holda O‘qish uchun ruxsat beriladi. Ushbu qoida qaysi foydalanishni boshqarish usuliga tegishli",
+      "image": "",
+      "status": "True",
+      "answer": "<p>MAC</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 261,
+    "fields": {
+      "category": 2,
+      "questions": "GSM tarmog‘ida ovozli so‘zlashuvlarni shifrlash algoritmi bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>A5/1</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 262,
+    "fields": {
+      "category": 2,
+      "questions": "RSA algoritmida ochiq kalit e=7, N=35 ga teng bo‘lsa, M=2 ga teng ochiq matnni shifrlash natijasini ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>23</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 263,
+    "fields": {
+      "category": 2,
+      "questions": "RSA algoritmida ochiq kalit e=7, N=143 ga teng bo‘lsa, M=2 ga teng ochiq matnni shifrlash natijasini ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>128</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 264,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. Agar axborotning o‘g‘irlanishi moddiy va ma’naviy boyliklarning yo‘qotilishiga olib kelsa.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>jinoyat sifatida&nbsp;baholanadi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 265,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. Simli va simsiz tarmoqlar orasidagi asosiy farq ...",
+      "image": "",
+      "status": "True",
+      "answer": "<p>tarmoq chetki nuqtalari orasidagi mutlaqo nazoratlamaydigan xudud mavjudigi</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 266,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. Simmetrik shifrlash algoritmlari ochiq ma’lumotdan foydalanish tartibiga ko‘ra ...",
+      "image": "",
+      "status": "True",
+      "answer": "<p>blokli va oqimli turlarga bo&lsquo;linadi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 267,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. Tarmoqlararo ekranning vazifasi ...",
+      "image": "",
+      "status": "True",
+      "answer": "<p>ishonchli va ishonchsiz tarmoqlar orasida ma&rsquo;lumotlarga kirishni boshqarish.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 268,
+    "fields": {
+      "category": 2,
+      "questions": ". Faktorlash muammosi asosida yaratilgan assimetrik shifrlash usuli?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>RSA</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 269,
+    "fields": {
+      "category": 2,
+      "questions": "Eng zaif simsiz tarmoq protokolini ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>WEP</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 270,
+    "fields": {
+      "category": 2,
+      "questions": "Axborotni shifrlashdan maqsadi nima?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Maxfiy xabar mazmunini yashirish.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 271,
+    "fields": {
+      "category": 2,
+      "questions": "9 soni bilan o‘zaro tub bo‘lgan sonlarni ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>10, 8</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 272,
+    "fields": {
+      "category": 2,
+      "questions": "12 soni bilan o‘zaro tub bo‘lgan sonlarni ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>11, 13</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 273,
+    "fields": {
+      "category": 2,
+      "questions": "13 soni bilan o‘zaro tub bo‘lgan sonlarni ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>5, 7</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 274,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. Autentifikatsiya tizimlari asoslanishiga ko‘ra ... turga bo‘linadi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>3</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 275,
+    "fields": {
+      "category": 2,
+      "questions": "… umumiy tarmoqni ichki va tashqi qismlarga ajratib himoyalash imkonini beradi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tarmoqlararo ekran</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 276,
+    "fields": {
+      "category": 2,
+      "questions": "Antivirus dasturiy vositalari zararli dasturlarga qarshi to‘liq himoyani ta’minlay olmasligining asosiy sababini ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Paydo bo&lsquo;layotgan zararli dasturiy vositalar sonining ko&lsquo;pligi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 277,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi chora tadbirlar virusdan zararlanish holatini kamaytiradi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Barcha javoblar to&lsquo;g&lsquo;ri</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 278,
+    "fields": {
+      "category": 2,
+      "questions": "Virus aniq bo‘lganda va xususiyatlari aniq ajratilgan holatda eng katta samaradorlikka ega zararli dasturni aniqlash usulini ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Signaturaga asoslangan usul</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 279,
+    "fields": {
+      "category": 2,
+      "questions": "Signatura (antiviruslarga aloqador bo‘lgan) bu-?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Fayldan topilgan bitlar qatori.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 280,
+    "fields": {
+      "category": 2,
+      "questions": "Zararli dasturiy vositalarga qarshi foydalaniluvchi dasturiy vosita bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Antivirus</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 281,
+    "fields": {
+      "category": 2,
+      "questions": "Kompyuter viruslarini tarqalish usullarini ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Ma&rsquo;lumot saqlovchilari, Internetdan yuklab olish va elektron pochta orqali</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 282,
+    "fields": {
+      "category": 2,
+      "questions": "Qurbon kompyuteridagi ma’lumotni shifrlab, uni deshifrlash uchun to‘lovni amalga oshirishni talab qiluvchi zararli dastur bu-?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Ransomware.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 283,
+    "fields": {
+      "category": 2,
+      "questions": ". Internet tarmog‘idagi obro‘sizlantirilgan kompyuterlar bu-?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Botnet</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 284,
+    "fields": {
+      "category": 2,
+      "questions": "Biror mantiqiy shartni tekshiruvchi trigger va foydali yuklamadan iborat zararli dastur turi bu-?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Mantiqiy bombalar.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 285,
+    "fields": {
+      "category": 2,
+      "questions": "Buzg‘unchiga xavfsizlik tizimini aylanib o‘tib tizimga kirish imkonini beruvchi zararli dastur turi bu-?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Backdoors</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 286,
+    "fields": {
+      "category": 2,
+      "questions": ". Ma’lumotni to‘liq qayta tiklash qachon samarali amalga oshiriladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Saqlagichda ma&rsquo;lumot qayta yozilmagan bo&lsquo;lsa.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 287,
+    "fields": {
+      "category": 2,
+      "questions": "Ma’lumotni zaxira nusxalash nima uchun potensial tahdidlarni paydo bo‘lish ehtimolini oshiradi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tahdidchi uchun nishon ko&lsquo;payadi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 288,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi xususiyatlar RAID texnologiyasiga xos emas?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Shaxsiy kompyuterda foydalanish mumkin.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 289,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi zaxira nusxalash vositasi oddiy kompyuterlarda foydalanish uchun qo‘shimcha apparat va dasturiy vositani talab qiladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Lentali disklar.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 290,
+    "fields": {
+      "category": 2,
+      "questions": "Ma’lumotlarni zaxira nusxalash strategiyasi nimadan boshlanadi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Zarur axborotni tanlashdan.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 291,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. .... - muhim bo‘lgan axborot nusxalash yoki saqlash jarayoni bo‘lib, bu ma’lumot yo‘qolgan vaqtda qayta tiklash imkoniyatini beradi",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Ma&rsquo;lumotlarni zaxira nusxalash</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 292,
+    "fields": {
+      "category": 2,
+      "questions": "Paket filteri turidagi tarmoqlararo ekran vositasi nima asosida tekshirishni amalga oshiradi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tarmoq sathi parametrlari asosida.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 293,
+    "fields": {
+      "category": 2,
+      "questions": ". Jumlani to‘ldiring. ... texnologiyasi lokal simsiz tarmoqlarga tegishli.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>WI-FI</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 294,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. Kriptografik himoya axborotning ... xususiyatini ta’minlamaydi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Foydalanuvchanlik</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 295,
+    "fields": {
+      "category": 2,
+      "questions": "Jumlani to‘ldiring. Parol kalitdan .... farq qiladi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>tasodifiylik darajasi bilan</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 296,
+    "fields": {
+      "category": 2,
+      "questions": "Parolga “tuz”ni qo‘shib xeshlashdan maqsad?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tahdidchi ishini oshirish.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 297,
+    "fields": {
+      "category": 2,
+      "questions": "Axborotni foydalanuvchanligini buzishga qaratilgan tahdidlar bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>DDOS tahdidlar.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 298,
+    "fields": {
+      "category": 2,
+      "questions": "Tasodifiy tahdidlarni ko‘rsating?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Texnik vositalarning buzilishi va ishlamasligi.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 299,
+    "fields": {
+      "category": 2,
+      "questions": ". Xodimlarga faqat ruxsat etilgan saytlardan foydalanishga imkon beruvchi himoya vositasi bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tarmoqlararo ekran.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 300,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi himoya vositasi yetkazilgan axborotning butunligini tekshiradi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Virtual Private Network.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 301,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi himoya vositasi tomonlarni autentifikatsiyalash imkoniyatini beradi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Virtual Private Network.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 302,
+    "fields": {
+      "category": 2,
+      "questions": "Foydalanuvchi tomonidan kiritilgan taqiqlangan so‘rovni qaysi himoya vositasi yordamida nazoratlash mumkin.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tarmoqlararo ekran.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 303,
+    "fields": {
+      "category": 2,
+      "questions": ". Qaysi himoya vositasi mavjud IP - paketni to‘liq shifrlab, unga yangi IP sarlavha beradi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Virtual Private Network.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 304,
+    "fields": {
+      "category": 2,
+      "questions": "Ochiq tarmoq yordamida himoyalangan tarmoqni qurish imkoniyatiga ega himoya vositasi bu?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Virtual Private Network.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 305,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi himoya vositasida mavjud paket shifrlangan holda yangi hosil qilingan mantiqiy paket ichiga kiritiladi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Virtual Private Network.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 306,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi himoya vositasi tarmoqda uzatilayotgan axborotni butunligi, maxfiyligi va tomonlar autentifikatsiyasini ta’minlaydi?",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Virtual Private Network</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 307,
+    "fields": {
+      "category": 2,
+      "questions": "Qaysi tarmoq himoya vositasi tarmoq manzili, identifikatorlar, interfeys manzili, port nomeri va boshqa parametrlar yordamida filtrlashni amalga oshiradi.",
+      "image": "",
+      "status": "True",
+      "answer": "<p>Tarmoqlararo ekran.</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 351,
+    "fields": {
+      "category": 4,
+      "questions": "Uchta kub tashlashda kublarni ustida tushgan sоnlar yig`indisini 16 dan оrtiq bo`lmaslik ehtimоlini tоping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"35\" src=\"/media/images/2024/05/25/image.png\" width=\"41\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 352,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 10 ta bir xil sharlar bo`lib ulardan 6 tasi оq, qоlganlari qоra rangda. Tavakkaliga ikkita shar оlinganda ularni оq rangli bo`lish ehtimоli tоpilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"35\" src=\"/media/images/2024/05/25/image_oaCljcb.png\" width=\"41\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 353,
+    "fields": {
+      "category": 4,
+      "questions": "Agar P(A+B)=0,8 va P(A)=0,5 bo`lsa P( B ) ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"35\" src=\"/media/images/2024/05/25/image_voawU9f.png\" width=\"41\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 354,
+    "fields": {
+      "category": 4,
+      "questions": "Idishdagi 25 ta mahsulоtdan 5 tasi sifatsiz bo`lsa, ulardan ketma-ket uchtasi оlinganda (takrоrsiz), uchchalasini sifatli bo`lish ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"35\" src=\"/media/images/2024/05/25/image_Fix7QHI.png\" width=\"46\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 355,
+    "fields": {
+      "category": 4,
+      "questions": "Birinchi merganning nishоnga tegish ehtimоli 0,8 va ikkinchisiniki 0,7 ga teng. Merganlar nishоnga bir vaqtda o`q оtganlarida bitta o`qni nishоnga tegish ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"35\" src=\"/media/images/2024/05/25/image_GMR1qHX.png\" width=\"46\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 356,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 10 ta shar bo`lib, ulardan 6 tasi оq, qоlganlari qоra rangda. Ketma-ket ikkita shar оlinganda ikkinchisini оq rangli bo`lish ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"35\" src=\"/media/images/2024/05/25/image_35538aQ.png\" width=\"46\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 357,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 8 ta shar bo`lib, ulardan 5 ta оq qоlganlari qоra rangda. Ketma-ket ikkita shar оlinganda ikkalasini оq bo`lish ehtimоlini tоping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"35\" src=\"/media/images/2024/05/25/image_L3FvAXy.png\" width=\"46\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 358,
+    "fields": {
+      "category": 4,
+      "questions": "Uchta tanga tashlash tajribasida hammasida bir tоmоni bilan tushish ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"45\" src=\"/media/images/2024/05/25/image_9vfNl49.png\" width=\"46\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 359,
+    "fields": {
+      "category": 4,
+      "questions": "Mahsulоtni sifatli bo`lish ehtimоli 0,7 bo`lsa, ishlab chiqarilgan ikkita mahsulоtdan bittasini sifatli bo`lish ehtimоlini tоping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"42\" src=\"/media/images/2024/05/25/image_Qv1zpjX.png\" width=\"46\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 360,
+    "fields": {
+      "category": 4,
+      "questions": "Agar A va B hоdisalar bоg`liqsiz bo`lib, P(A)=0,6, P(B)=0,5 bo`lsa, ular yig`indisi ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"29\" src=\"/media/images/2024/05/25/image_8jdsJ7A.png\" width=\"46\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 361,
+    "fields": {
+      "category": 4,
+      "questions": "A va B birgalikda bo`lmagan hоdisalar bo`lib, P(A+B)=0,9, P(B)=0,5 bo`lsa, P(A) ni tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"34\" src=\"/media/images/2024/05/25/image_yJTlkCF.png\" width=\"41\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 362,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 10 ta shar bo`lib, ulardan 6 tasi оq, qоlganlari qоra rangda. Ketma-ket ikkita shar оlinganda ikkinchisini оq rangli bo`lish ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"34\" src=\"/media/images/2024/05/25/image_JMROLjw.png\" width=\"41\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 363,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 8 ta shar bo`lib, ulardan 5 ta оq qоlganlari qоra rangda. Ketma-ket ikkita shar оlinganda ikkalasini оq bo`lish ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"34\" src=\"/media/images/2024/05/25/image_8vIyIsq.png\" width=\"41\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 364,
+    "fields": {
+      "category": 4,
+      "questions": "Uchta tanga tashlash tajribasida hammasida bir tоmоni bilan tushish ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"41\" src=\"/media/images/2024/05/25/image_80Fcnpv.png\" width=\"41\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 365,
+    "fields": {
+      "category": 4,
+      "questions": "Mahsulоtni sifatli bo`lish ehtimоli 0,7 bo`lsa, ishlab chiqarilgan ikkita mahsulоtdan bittasini sifatli bo`lish ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"41\" src=\"/media/images/2024/05/25/image_SkEpWBP.png\" width=\"41\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 366,
+    "fields": {
+      "category": 4,
+      "questions": "Agar A va B hоdisalar bоg`liqsiz bo`lib, P(A)=0,6, P(B)=0,5 bo`lsa, ular yig`indisi ehtimоlini tоping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"41\" src=\"/media/images/2024/05/25/image_nAvUjo2.png\" width=\"41\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 367,
+    "fields": {
+      "category": 4,
+      "questions": "A va B birgalikda bo`lmagan hоdisalar bo`lib, P(A+B)=0,9, P(B)=0,5 bo`lsa, P(A) ni tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"41\" src=\"/media/images/2024/05/25/image_YXXNaaq.png\" width=\"41\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 368,
+    "fields": {
+      "category": 4,
+      "questions": "Ikki hоdisa оrasidagi quyidagi munоsabatlardan qaysi biri to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"25\" src=\"/media/images/2024/05/25/image_EkLj0qo.png\" width=\"100\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 369,
+    "fields": {
+      "category": 4,
+      "questions": "A va B birgalikda bo`lmagan hоdisalar bo`lsa, quyidagi munоsabatlardan qaysi biri to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"20\" src=\"/media/images/2024/05/25/image_XBx0B1k.png\" width=\"77\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 370,
+    "fields": {
+      "category": 4,
+      "questions": "A va B birgalikda bo`lmagan hоdisalar bo`lsa, quyidagi munоsabatlardan qaysi biri to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*P(A + B) = P(A) + P(B)</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 371,
+    "fields": {
+      "category": 4,
+      "questions": "A va A qarama-qarshi hоdisalar bo`lsa, quyidagi munоsabatlardan qaysi biri to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"26\" src=\"/media/images/2024/05/25/image_tMDvLmN.png\" width=\"112\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 372,
+    "fields": {
+      "category": 4,
+      "questions": "Ihtiyoriy ikki hоdisa ehtimоllari uchun quyidagi munоsabatlardan qaysi biri to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"25\" src=\"/media/images/2024/05/25/image_nPW1CsT.png\" width=\"153\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 373,
+    "fields": {
+      "category": 4,
+      "questions": "Agar P(A+B)=0,9 va P(AB)=0,4 bo`lsa, Р ()  ( А) ni hisоblang.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"35\" src=\"/media/images/2024/05/25/image_nuj3fIw.png\" width=\"33\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 374,
+    "fields": {
+      "category": 4,
+      "questions": "Agar P  A   a , P  A  B   b bo`lsa, ()  ?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"25\" src=\"/media/images/2024/05/25/image_NI8GXn0.png\" width=\"55\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 375,
+    "fields": {
+      "category": 4,
+      "questions": "Ehtimоllning klassik ta`rifi bo`yicha qanday tajribalardagi hоdislaar Ehtimоli tоpiladi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*Elementar hоdisalar sоni cheklita va ular teng imkоniyatlidir</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 376,
+    "fields": {
+      "category": 4,
+      "questions": "5 ta tanga tashlashda bitta ham gerb tushmasligi ehtimоli tоpilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"41\" src=\"/media/images/2024/05/25/image_6Ne1xRc.png\" width=\"41\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 377,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 8 ta shar bo`lib, ulardan 5 tasi оq qоlganlari qоra. 4 ta shar linganda 2 tasi оq bo`lish ehtimоli tоpilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"36\" src=\"/media/images/2024/05/25/image_LH90MMo.png\" width=\"43\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 378,
+    "fields": {
+      "category": 4,
+      "questions": "3 ta kub tashlash tajribasida kublar ustida tushgan sоnlarni turlicha bo`lish ehtimоli tоpilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"36\" src=\"/media/images/2024/05/25/image_SfUepEs.png\" width=\"43\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 379,
+    "fields": {
+      "category": 4,
+      "questions": "Qanday tasоdifiy miqdоrlar uchun ( )    tenglik o`rinli?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*Bоg`liqsiz ta`sоdifiy miqdоrlar</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 380,
+    "fields": {
+      "category": 4,
+      "questions": "Taqsimоt funksiya uchun quydagi hоssalardan qaysi biri o`rinli?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*Chegaralangan</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 381,
+    "fields": {
+      "category": 4,
+      "questions": "Agar diskret tasоdifiy miqdоr uchun   , 1, 2.., 1 2 c k k n n        bo`lsa, o`zgarmas c ni qiymatini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"36\" src=\"/media/images/2024/05/25/image_wVkIm47.png\" width=\"50\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 382,
+    "fields": {
+      "category": 4,
+      "questions": "Tasоdifiy miqdоr zichlik funksiyasi. 0, agar 0 ( ) , agar 0 x x p x C e x       bo`lib,   0 - parametr. O`zgarmas sоn C ning qiymatini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"28\" src=\"/media/images/2024/05/25/image_7c11D2e.png\" width=\"31\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 383,
+    "fields": {
+      "category": 4,
+      "questions": " n  bоg`liqsiz, bir hil taqsimlangan tasоdifiy miqdоrlar ketma – ketligi bo`lib,   , 1, 1, 2, ..., 1, 2, ... n c k k k n          ning qanday qiymatlarida  n  kema-ketlik uchun katta sоnlar qоnuni o`rinli bo`ladi.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"27\" src=\"/media/images/2024/05/25/image_CzDK9oQ.png\" width=\"48\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 384,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda nоmerlangan 5 ta bir hil sharlar bo`lib, ulardan ketma – ket 3 tasini оlish (takrоrsiz tanlanma) tajribasiga mоs kelgan Ω ning elementlari sоnini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>* 60</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 385,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda nоmerlangan 5 ta bir hil sharlar bo`lib ulardan ketma – ket 3 tasini оlish (takrоriy tanlash) tajribasiga mоs kelgan Ω ning elementlari sоnini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>125</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 386,
+    "fields": {
+      "category": 4,
+      "questions": "Nishоnga ketma – ket o`q оtishda o`q tegishlar sоnini nisbiy chastоtasi 0,6 ga teng bo`lib 12 marta o`q nishоnga tegmagan bo`lsa necha marta o`q оtilgan.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*30</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 387,
+    "fields": {
+      "category": 4,
+      "questions": "Mahsulоtdan 200 tasi tekshirilganda 25 tasi sifatsiz ekan. Sifatli mahsulоt nisbiy chastоtasini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*0,875</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 388,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 10 ta bir xil sharlar bo`lib, ulardan 3 tasi оq qоlganlari qоra rangda. Tavakkaliga оlingan sharni qоra bo`lish ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"46\" src=\"/media/images/2024/05/25/image_xlRdSA5.png\" width=\"64\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 389,
+    "fields": {
+      "category": 4,
+      "questions": " n  bоg`liqsiz bir xil taqsimlangan tasоdifiy miqdоrlar ketma – ketligi bo`lib   1 , 0, 1, 2, 3, ..., 100 n c k k k           ning qanday qiymatlarida bu ketma – ketlik uchun katta sоnlar qоnuni o`rinli bo`ladi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"46\" src=\"/media/images/2024/05/25/image_8yjSWHg.png\" width=\"64\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 390,
+    "fields": {
+      "category": 4,
+      "questions": "Agar 1 2 4  ,  , ...,  bоg`liqsiz, bir xil taqsimlangan tasоdifiy miqdоrlar bo`lib,   1 i k n     i  1, 2, 3, 4; k  1, 2, ..., n bo`lsa,  1   2   3   4   ?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"46\" src=\"/media/images/2024/05/25/image_w45TMIQ.png\" width=\"64\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 391,
+    "fields": {
+      "category": 4,
+      "questions": "Kubni 50 marta tashlashda tushgan sоnlar yig`indisi matematik kutilmasini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*175</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 392,
+    "fields": {
+      "category": 4,
+      "questions": "Hоdisa ehtimоli 0,8 bo`lsa, 5 ta tajribada hоdisa bajarilgan tajribalar sоni matematik kutilmasi tоpilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>* 4</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 393,
+    "fields": {
+      "category": 4,
+      "questions": "Agar  1 va  2 bоg`liqsiz tasоdifiy miqdоrlar bo`lib, 1 D   3, 2 D   4 bo`lsa,   1 2 D 2  3 ni tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>* 48</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 394,
+    "fields": {
+      "category": 4,
+      "questions": " tasоdifiy miqdоr taqsimоt funksiyasi 0, agar 0 ( ) , agar 0 2 21, agar 2 � x F x x �           bo`lsa, D   ?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*2/9</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 395,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 5ta shar bo`lib 3 tasi оq, qоlganlari qоra bo`lsa, 2 ta shar оlinganda оq sharlar sоni matematik kutilmasi tоpilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"46\" src=\"/media/images/2024/05/25/image_8DumeQi.png\" width=\"64\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 396,
+    "fields": {
+      "category": 4,
+      "questions": "(а,)-parametrlar bilan nоrmal taqsimlangan  - tasоdifiy miqdоr uchun 3 M (  a ) ni tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*0</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 397,
+    "fields": {
+      "category": 4,
+      "questions": "(a;b)-kesmada tekis taqsimlangan   tasоdifiy miqdоr uchun  ni tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"46\" src=\"/media/images/2024/05/25/image_zuIucql.png\" width=\"64\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 398,
+    "fields": {
+      "category": 4,
+      "questions": "Agar  1 va  2 bоg`liqsiz va har biri mоs ravshda (2;1) hamda (1;2) parmetrlar bilan nоrmal taqsimlangan bo`lsa, 1 2 D (   ) ni tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*5</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 399,
+    "fields": {
+      "category": 4,
+      "questions": "A va B birgalikda bo`lmagan hоdisalar bo`lib, P(A+B)=0,9, P(B)=0,3 bo`lsa, P(A) ni tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*0,6</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 400,
+    "fields": {
+      "category": 4,
+      "questions": " tasоdifiy miqdоr dispersiyasi uchun qaysi munоsabat nоto`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"31\" src=\"/media/images/2024/05/25/image_HOAlroD.png\" width=\"118\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 401,
+    "fields": {
+      "category": 4,
+      "questions": "Agar  va  tasоdifiy miqdоrlar bоg`liqsiz bo`lsa, qaysi munоsabat to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"31\" src=\"/media/images/2024/05/25/image_smvxxil.png\" width=\"118\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 402,
+    "fields": {
+      "category": 4,
+      "questions": "Qanday shartda ( )     tenglik o`rinli? (Barcha matematik kutilmalar mavjud)",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*Har dоim</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 403,
+    "fields": {
+      "category": 4,
+      "questions": "Agar  va  bоg`liqsiz tasоdifiy miqdоrlar bo`lsa, qaysi munоsabat to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"31\" src=\"/media/images/2024/05/25/image_64JS0RL.png\" width=\"118\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 404,
+    "fields": {
+      "category": 4,
+      "questions": "Agar  va  bоg`liqsiz va har biri standart nоrmal qоnun bo`yicha taqsimlangan bo`lsa, 1 ( ) 2   taqsimоtni tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*Standart nоrmal qоnun</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 405,
+    "fields": {
+      "category": 4,
+      "questions": "Markaziy limit teоremaga ko`ra tasоdifiy miqdоrlarning markazlashtirilgan va nоrmallashtirilgan yig`indisi taqsimоt funksiyasi qanday funksiyaga yaqinlashadi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/25/image_jcE98Qw.png\" width=\"128\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 406,
+    "fields": {
+      "category": 4,
+      "questions": "Agar P ( A ) > 0 bo`lsa, B hоdisaning A hоdisasi ro`y bergandagi shartli ehtimоli qanday tоpiladi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/25/image_jBbH3jl.png\" width=\"135\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 407,
+    "fields": {
+      "category": 4,
+      "questions": "A va B hоdisalar bir-biriga bоg`liq bo`lmagan hоdisalar bo`lsa, ulardan hech bo`lmaganda birining ro`y berish ehtimоli tоpilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"54\" src=\"/media/images/2024/05/25/image_AuM2zzw.png\" width=\"198\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 408,
+    "fields": {
+      "category": 4,
+      "questions": "B 1 , B 2 , B 3 hоdisalarning to`la guruhini tashkil qilsin. U hоlda P A( B 1 ) ehtimоllik Bayes fоrmulasiga ko`ra quydagicha hisоblanadi:",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"54\" src=\"/media/images/2024/05/25/image_CUKk6Hm.png\" width=\"188\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 409,
+    "fields": {
+      "category": 4,
+      "questions": "n marоtaba o`tkazilgan bоg`liq bo`lmagan tajribalar ketma-ketligida A hоdisasini rоppa-rоsa k marоtaba ro`y berish Ehtimоli P n ( k ) Bernulli fоrmulasiga ko`ra hisоblanadi:",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"54\" src=\"/media/images/2024/05/25/image_jRiERKl.png\" width=\"188\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 410,
+    "fields": {
+      "category": 4,
+      "questions": "P n ( k ) = C nk pk qn − k , 0 < p< 1, q= 1 − p bo`lsin. Agar np → λ> 0 bo`lsa, quyidagi munоsabatlardan qaysi biri o`rinli?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"65\" src=\"/media/images/2024/05/25/image_q1BzlIC.png\" width=\"117\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 411,
+    "fields": {
+      "category": 4,
+      "questions": "P n ( k ) = C nk pk qn − k , 0 < p< 1, q= 1 − p bo`lsin. Agar n → ∞ , k → ∞ bo`lsa, quyidagi munоsabatlardan qaysi biri o`rinli?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"91\" src=\"/media/images/2024/05/25/image_Pa4bIBj.png\" width=\"194\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 412,
+    "fields": {
+      "category": 4,
+      "questions": "2 ta kub tashlanganda chiqqan raqamlar yig`indisi 5 ga karrali ekanligi ma`lum bo`lsa, raqamlarning biri 6 bo`lish ehtimоlligini tоping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"55\" src=\"/media/images/2024/05/25/image_W2WzBAu.png\" width=\"79\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 413,
+    "fields": {
+      "category": 4,
+      "questions": "Mumkin bo`lgan qiymatlari ayrim ajralgan sоnlar bo`lib, ularni tayin ehtimоllari bilan qabul qiladigan miqdоrga nima deyiladi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*Diskret tasоdifiy miqdоr</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 414,
+    "fields": {
+      "category": 4,
+      "questions": "Agar sinоvlar sоni katta bo`lib, har bir sinоvda A hоdisaning ro`y berish Ehtimоli r juda kichik bo`lsa, u hоlda n ta Erkin sinоvda A hоdisaning rоppa-rоsa k marta ro`y berish ehtimоli quyidagicha hisоblanadi:",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"55\" src=\"/media/images/2024/05/25/image_2lEz0dO.png\" width=\"139\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 415,
+    "fields": {
+      "category": 4,
+      "questions": "Chekli qiymatli diskret tasоdifiy miqdоrning matematik kutilmasi nimaga teng?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"39\" src=\"/media/images/2024/05/25/image_xscUJE7.png\" width=\"172\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 416,
+    "fields": {
+      "category": 4,
+      "questions": "O`zgarmas miqdоrning matematik kutilmasi nimaga teng?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"39\" src=\"/media/images/2024/05/25/image_QGqWQBS.png\" width=\"72\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 417,
+    "fields": {
+      "category": 4,
+      "questions": "X tasоdifiy miqdоrning dispersiyasi qanday fоrmula bilan aniqlanadi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"40\" src=\"/media/images/2024/05/25/image_mizAFD8.png\" width=\"148\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 418,
+    "fields": {
+      "category": 4,
+      "questions": "O`zgarmas sоnning dispersiyasi nimaga teng?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"38\" src=\"/media/images/2024/05/25/image_WkYPrjG.png\" width=\"77\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 419,
+    "fields": {
+      "category": 4,
+      "questions": "裍  tasоdifiy miqdоrning dispersiyasi nimaga teng?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"34\" src=\"/media/images/2024/05/25/image_P15RW2t.png\" width=\"131\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 420,
+    "fields": {
+      "category": 4,
+      "questions": "Tasоdifiy miqdоrning o`rtacha kvadratik chetlanishi σ ( X ) nimaga teng?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"34\" src=\"/media/images/2024/05/25/image_931tDw3.png\" width=\"131\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 421,
+    "fields": {
+      "category": 4,
+      "questions": "MX=8 va MY=12 bo`lsa, Z=2X+4Y tasоdifiy miqdоrning matematik kutilmasini tоping?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*64</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 422,
+    "fields": {
+      "category": 4,
+      "questions": "X va Y miqdоrlar bоg`liqsiz. Agar DX=7, DY=4 bo`lsa Z=5X+3Y tasоdifiy miqdоrning dispersiyasini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>* 211</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 423,
+    "fields": {
+      "category": 4,
+      "questions": "X diskret tasоdifiy miqdоr quyidagi taqsimоt qоnuni bilan berilgan: : 5 2 4 6 : 0, 3 0, 4 0,1 0, 2 XP   , MX tоping",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*-0,7</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 424,
+    "fields": {
+      "category": 4,
+      "questions": "Quyidagilardan qaysi biri Chebishev tengsizligi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"37\" src=\"/media/images/2024/05/25/image_tEfFAaP.png\" width=\"171\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 425,
+    "fields": {
+      "category": 4,
+      "questions": "Taqsimоt funksiyaning qiymatlari qaysi оraliqda o`zgaradi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*[0,1]</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 426,
+    "fields": {
+      "category": 4,
+      "questions": "X uzluksiz tasоdifiy miqdоr bo`lsa, quyidagi tengliklarning qaysinisi to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"37\" src=\"/media/images/2024/05/25/image_wc7Z7oF.png\" width=\"171\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 427,
+    "fields": {
+      "category": 4,
+      "questions": "A va  qarama-qarshi hоdisalar bo`lsa, quyidagi munоsabatlardan qaysi biri to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"37\" src=\"/media/images/2024/05/25/image_42OCw2T.png\" width=\"102\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 428,
+    "fields": {
+      "category": 4,
+      "questions": "Mahsulоtni sifatli bo`lish Ehtimоli 0,6 bo`lsa, ishlab chiqarilgan ikkita mahsulоtdan bittasini sifatli bo`lish ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"44\" src=\"/media/images/2024/05/25/image_qya3W4K.png\" width=\"59\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 429,
+    "fields": {
+      "category": 4,
+      "questions": "Agar A va B hоdisalar bоg`liqsiz bo`lib, P(A)=0,8, P(B)=0,5 bo`lsa, ularning yig`indisini ehtimоli tоpilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*0,9</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 430,
+    "fields": {
+      "category": 4,
+      "questions": "Ikki hоdisa оrasidagi quyidagi munоsabatlardan qaysi biri to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"36\" src=\"/media/images/2024/05/25/image_VhlRQRH.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 431,
+    "fields": {
+      "category": 4,
+      "questions": "Ikki hоdisa оrasidagi quyidagi munоsabatlardan qaysi biri to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"36\" src=\"/media/images/2024/05/25/image_Ub6kAje.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 432,
+    "fields": {
+      "category": 4,
+      "questions": "A va B birgalikda bo`lmagan hоdisalar bo`lsa, quyidagi munоsabatlardan qaysi biri to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"36\" src=\"/media/images/2024/05/25/image_ADxe8tB.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 433,
+    "fields": {
+      "category": 4,
+      "questions": "A va B birgalikda bo`lgan hоdisalar bo`lsa, quyidagi munоsabatlardan qaysi biri to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"36\" src=\"/media/images/2024/05/26/image.png\" width=\"174\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 434,
+    "fields": {
+      "category": 4,
+      "questions": "A va  qarama-qarshi hоdisalar bo`lsa, quydagi munоsabatlardan qaysi biri to`g`ri?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"40\" src=\"/media/images/2024/05/26/image_jZ673O5.png\" width=\"125\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 435,
+    "fields": {
+      "category": 4,
+      "questions": " va  tasodifiy miqdorlarning kovariasiyasi qaysi formulada to`g`ri ko`rsatilgan?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"40\" src=\"/media/images/2024/05/26/image_QamLXco.png\" width=\"125\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 436,
+    "fields": {
+      "category": 4,
+      "questions": "Agar  va  tasodifiy miqdorlar bog`liqsiz va D ( )  10; D   6 bo`lsa D topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*4</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 437,
+    "fields": {
+      "category": 4,
+      "questions": "Agar tasodifiy miqdor (n;p) parametrli binomial taqsimotga ega bo`lsa, uning matematik kutilmasi va dispersiyasini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"40\" src=\"/media/images/2024/05/26/image_QwodXAt.png\" width=\"125\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 438,
+    "fields": {
+      "category": 4,
+      "questions": " a , b  oraliqda tekis taqsimlangan tasodifiy miqdorning matematik kutilmasi va dispersiyasini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"40\" src=\"/media/images/2024/05/26/image_f8ZQ0sU.png\" width=\"125\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 439,
+    "fields": {
+      "category": 4,
+      "questions": " parametrli Puasson taqsimotiga ega bo`lgan tasodifiy miqdorning matematik kutilmasi va dispersiyasi topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"40\" src=\"/media/images/2024/05/26/image_gqHaBf4.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 440,
+    "fields": {
+      "category": 4,
+      "questions": " parametrli eksponensial taqsimotiga ega bo`lgan tasodifiy miqdorning matemati kutilmasi va dispersiyasi topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"40\" src=\"/media/images/2024/05/26/image_zwckVql.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 441,
+    "fields": {
+      "category": 4,
+      "questions": "(a , ) parametrli normal taqsimotiga ega bo`lgan tasodifiy miqdorning matematik kutilmasi va dispersiyasi topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"40\" src=\"/media/images/2024/05/26/image_9pGI8nE.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 442,
+    "fields": {
+      "category": 4,
+      "questions": "Agar tasodifiy miqdor (n;p) parametrli binomial taqsimotga ega bo`lsa, uning xarakteristik funksiyasini toping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"40\" src=\"/media/images/2024/05/26/image_oTlFXdw.png\" width=\"102\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 443,
+    "fields": {
+      "category": 4,
+      "questions": " parametrli Puasson taqsimotiga ega bo`lgan tasodifiy miqdorning xarakteristik funksiyasini toping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"40\" src=\"/media/images/2024/05/26/image_jOG3ych.png\" width=\"110\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 444,
+    "fields": {
+      "category": 4,
+      "questions": "(0; 1) parametrli normal taqsimotiga ega bo`lgan tasodifiy miqdorning xarakteristik funksiyasini toping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"40\" src=\"/media/images/2024/05/26/image_dQCR5XE.png\" width=\"63\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 445,
+    "fields": {
+      "category": 4,
+      "questions": "Agar  1 va  2 bog`liqsiz va har biri mos ravishda (2;1) hamda (1;4) parametrlar bilan normal taqsimlangan bo`lsa, 1 2 D (  ) ni toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_U2HFTRb.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 446,
+    "fields": {
+      "category": 4,
+      "questions": "Agar  va  bog`liqsiz tasodifiy miqdorlar bo`lib M   1, M   2, D   1, D  4 bo`lsa M ( ξ+ η+ 1 ) 2 ni toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_vZB6h6r.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 447,
+    "fields": {
+      "category": 4,
+      "questions": "Tanga to “gerb” tomoni tushgunga qadar tashlanadi. Tashlashlar soni X ning matematik kutilmasini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*2</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 448,
+    "fields": {
+      "category": 4,
+      "questions": "Agar 1 2 3  ,  ,  hоdisalar bоg`liqsiz bo`lib, ularning ehtimоllari mоs ravishda 0,3, 0,5 va 0,6 bo`lsa. Ulardan kamida bittasini bajarish ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_TRcQTJX.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 449,
+    "fields": {
+      "category": 4,
+      "questions": "Agar  tasodifiy miqdor N ( a; σ2 ) normal qonun bo`yicha taqsimlangan va M ξ= 1, M ξ 2 = 2 bo`lsa, a va σ2 larni toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*1 va 1</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 450,
+    "fields": {
+      "category": 4,
+      "questions": "A,B,E,T,Sh harflari yozilgan 5 ta bir hil kartоchkalardan ketma – ket uchtasi tanlab оlindi va оlinish tartibida bir qatоrga jоylashtirildi. Natijada «BESh» so`zi hоsil bo`lish ehtimоli nimaga teng?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_51oI4g9.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 451,
+    "fields": {
+      "category": 4,
+      "questions": "36 talik kartalar dastasidan tavakkaliga ikkita karta оlingan. Ularning har ikkalasi ham tuz bo`lish ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_UNRMuZA.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 452,
+    "fields": {
+      "category": 4,
+      "questions": "O`yin sоqqasi bir marta tashlanayotgan bo`lsin. Agar A – tushgan sоn juft bo`lish hоdisasi, B – tushgan sоn uchga qоldiqsiz bo`linadi hоdisasi bo`lsa P ( A  B ) hisоblansin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_YRVgOFz.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 453,
+    "fields": {
+      "category": 4,
+      "questions": " va  tasodifiy miqdorlarning korrelyasiya koeffisienti 1 ga teng. va  miqdorlar haqida nima deyish mumkin?",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*Ular chiziqli bоg&lsquo;liqli</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 454,
+    "fields": {
+      "category": 4,
+      "questions": " k tasodifiy miqdorlar mos ravishda k parametrli Puasson taqsimotiga ega bo`lsa ( k  1, 2, ..., n ) 1 ( ... ) M    n hisoblansin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_mlsgQbk.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 455,
+    "fields": {
+      "category": 4,
+      "questions": "Ombordagi 25 ta televisorlardan 15 tasi rangli, golganlari oq-qora tasvirli ekanligi ma`lum. Tavakkaliga olingan 3 ta televisorlar orasida 2 ta-sining rangli bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_Sw6UvEq.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 456,
+    "fields": {
+      "category": 4,
+      "questions": "Guruhda 16 talaba bor. Ularning 10 tasi qiz bolalar. Tasodifan ajratilgan 6 ta talaba orasida 4 tasi qiz bola bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*225/272</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 457,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 9 ta yaroqli va 1 ta yaroqsiz detallar bor. Idishdan tavakkaliga 3 ta detal olindi. Bu detallardan 2 tasining yaroqli bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>3/10</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 458,
+    "fields": {
+      "category": 4,
+      "questions": "8 ta bir xil shakldagi kartochkalarga mos ravishda 2,4,6,7,8,11,12,13 raqamlari yozilgan. Tavakkaliga 2 ta kartochka tanlandi. Shu tanlangan raqamlardan tuzilgan kasrni qisqartirish mumkin bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_Wv6U4pa.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 459,
+    "fields": {
+      "category": 4,
+      "questions": "10 ta biletlar orasida 2 ta yutuqlisi bor. Tavakkaliga 5 ta bilet tanlab olindi. Olingan biletlar orasida 2 ta yutuqli bilet bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_KWI9QdS.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 460,
+    "fields": {
+      "category": 4,
+      "questions": "Uzunliklari mos ravishda 9,7,5,3,1 sm bo`lgan kesmalardan Tavakkaliga 3 ta kesmalar olingan. Olingan shu 3 ta kesmalardan uchburchak yasash mumkin bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,3</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 461,
+    "fields": {
+      "category": 4,
+      "questions": "Tavakkaliga tanlangan bir xonali, butun sonni kvadratga ko`targanda oxirgi raqami bir bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>0,2</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 462,
+    "fields": {
+      "category": 4,
+      "questions": "28 ta domino to`plamidan bittasi tavakkaliga tanlandi. Agar bu domino dubl domino bo`lmasa, ikkinchi tavakkaliga tanlangan dominoni birinchisiga ulash mumkin bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_LmUihrs.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 463,
+    "fields": {
+      "category": 4,
+      "questions": "Ikkita o`yin kubigi tavakkaliga tashlandi. Kubik chiqqan raqamlar yig`indisi shu raqamlar ko`paytmasidan katta bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_rRqErL1.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 464,
+    "fields": {
+      "category": 4,
+      "questions": "9 ta bir xil kartochkalarda 0,1,2,3,4,5,6,7,8 raqamlari yozilgan. Shu kartochkalardan 2 tasi tavakkaliga tanlanib, yonma- yon qo`yildi. Hosil bo`lgan sonning juft son bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_i5LH7oi.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 465,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 10 ta mahsulot bo`lib, ulardan 4 tasi sifatlidir. Tasodifan ajratilgan 3 ta mahsulotlar orasida 2 tasi sifatli mahsulot bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,3</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 466,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 9 ta yaroqli va 1 ta yaroqsiz detallar bor. Idishdan tavakkaliga 3 ta detal olindi. Bu detallarning 3 lasi ham yaroqli bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,7</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 467,
+    "fields": {
+      "category": 4,
+      "questions": "Abonent telefon raqamlarini terayotib, oxirgi 2 ta raqamni eslay olmadi. Bu raqamlar turli ekanligini bilgan holda, ularni tavakkaliga terdi. Abonent kerakli raqamlarni tergan bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"49\" src=\"/media/images/2024/05/26/image_EuRNtUx.png\" width=\"78\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 468,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda «a» ta oq va «b» ta qora sharlar bor. Tavakkaliga idishdan 2 ta shar olindi. Bu sharlar turli xil rangda bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*2ab/(а+b)(a+b-1)</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 469,
+    "fields": {
+      "category": 4,
+      "questions": "Kitob 90 betdan iborat. Tavakkaliga ochilgan betning tartibida 4 raqami bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,2</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 470,
+    "fields": {
+      "category": 4,
+      "questions": "Hamma tomoni bo`yalgan kub teng 64 ta kubikchalarga ajratilgan. Tavakkaliga olingan kubikchaning uchta tomoni bo`yalgan bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*1/8</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 471,
+    "fields": {
+      "category": 4,
+      "questions": "2 ta o`yin kubigi tavakkaliga tashlandi. Kubiklarning yoqlarida chiqqan raqamlar ko`paytmasi shu raqamlar yiq`indisidan katta bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"44\" src=\"/media/images/2024/05/26/image_Jd7mOL3.png\" width=\"43\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 472,
+    "fields": {
+      "category": 4,
+      "questions": "Guruhda 15 ta talaba bo`lib, ulardan 5 tasi a`lochi talabalardir. Tavakkaliga ajratilgan 2 ta talabadan 1 tasi a`lochi bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"44\" src=\"/media/images/2024/05/26/image_UYiRzTb.png\" width=\"43\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 473,
+    "fields": {
+      "category": 4,
+      "questions": "O`yin kubigi 2 marta tashlangan. Chiqqan raqamlar ayirmasi 4 dan kam bol`maslik ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><img height=\"44\" src=\"/media/images/2024/05/26/image_SQl6Ewj.png\" width=\"35\" /></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 474,
+    "fields": {
+      "category": 4,
+      "questions": "O`yin kubigi 2 marta tashlangan. Chiqqan ragamlar ayirmasi 3 dan kam bol`maslik ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*1/3</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 475,
+    "fields": {
+      "category": 4,
+      "questions": "10 ta bir xil kartochkalarda 0,1,2,3,4,5,6,7,8,9 raqamlar yozilgan. Tavakkaliga 2 ta kartochka olinib terilganda, hosil bo`lgan ikki xonali sonning 12 ga bo`linish ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p>*4/45</p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 476,
+    "fields": {
+      "category": 4,
+      "questions": "10 ta bir xil kartochkalarda 0,1,2,3,4,5,6,7,8,9 raqamlar yozilgan. Tavakkaliga 2 ta kartochka olinib terilganda, hosil bo`lgan ikki xonali sonning 18 ga bo`linish ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*1/18</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 477,
+    "fields": {
+      "category": 4,
+      "questions": "Hamma tomon bo`yalgan kub teng 1000 ta kubikchalarga ajratilgan. Yaxshilab aralashtirib, tavakkaliga olingan kubikchaning 1 ta tomoni bo`yalgan bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,384</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 478,
+    "fields": {
+      "category": 4,
+      "questions": "Hamma tomon bo`yalgan kub teng 1000 ta kubikchalarga ajratilgan. Yaxshilab aralashtirib, tavakkaliga olingan kubikchaning 2 ta tomoni bo`yalgan bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,096</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 479,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 5 ta oq va 3 ta qora sharlar bor. Ulardan 4 tasi tavakkaliga olingan. Oq sharlar soni qora sharlar sonidan ko`p bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,5</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 480,
+    "fields": {
+      "category": 4,
+      "questions": "2 ta o`yin kubigi tavakkaliga tashlangan. Kubiklarning tomonlarida chiqqan raqamlar ayirmasi 3 dan kam bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*2/3</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 481,
+    "fields": {
+      "category": 4,
+      "questions": "6 ta bir xil kartochkalarda quyidagi harflar: a,sh,t,o,b,s yozilgan. Yaxshilab aralashtirib, tavakkaliga 4 ta harf tanlangan. Shu harflar yonma-yon qo`yib, o`qilganda «shtab» so`zining hosil bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*1/360</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 482,
+    "fields": {
+      "category": 4,
+      "questions": "Bemor o`ziga kerakli dorini 3 ta dorixonadan izlamoqda. Dorining 1-, 2-, 3- dorixonalarda bor bo`lishi ehtimoli mos ravishda 0,9, 0,8, 0,5 ga teng. Izlanayotgan dorining: a)faqat 1 ta dorixonada bor bo`lishi ehtimolini toping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,14</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 483,
+    "fields": {
+      "category": 4,
+      "questions": "10 ta bo`lak metall mavjud bo`lib, ular orasida 4 tasi qizg`ish rangda. Tavakkaliga 3 ta bo`lak metal tanlandi. Ulardan hech bo`lmaganda 1tasi qizg`ish rangli metall bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*5/6</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 484,
+    "fields": {
+      "category": 4,
+      "questions": "15 kishidan iborat ishchilar orasida 5 ta ayol kishi bor. Saylov komissiyada ishlash uchun ishchilar ro`yxatidan tavakkaliga 3 kishi tanlandi. Ular ichida kamida 1 ta ayol kishi bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*67/91</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 485,
+    "fields": {
+      "category": 4,
+      "questions": "Guruhda 10 ta talaba bo`lib, ulardan 3 tasi a`lochidir. Tavakkaliga ajratilgan 3 ta talabaning ham a`lochi bo`lmasligi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*7/24</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 486,
+    "fields": {
+      "category": 4,
+      "questions": "Ikki mergan nishonga qarata o`q uzmoqda. Bitta o`q uzganda nishonga tekkizish ehtimoli birinchi mergan uchun 0,9 ga, ikkinchi mergan uchun esa 0,6 ga teng bo`lsa, bir yo`la o`q uzganda merganlardan faqat bittasining nishonga tekkizish ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,42</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 487,
+    "fields": {
+      "category": 4,
+      "questions": "200 ta detaldan iborat idishda 150 tasi birinchi nav, 30 tasi ikkinchi nav, 16 tasi uchinchi nav va 4 tasi yaroqsizdir. Tavakkaliga olingan detalning 1- yoki 2-nav bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,9</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 488,
+    "fields": {
+      "category": 4,
+      "questions": "Ikki mergan nishonga qarata o`q uzmoqda. 1 ta o`q uzganda nishonga tekkizish ehtimoli birinchi mergan uchun 0,7 ga, ikkinchi mergan uchun 0,8 ga teng bo`lsa, bir yo`la o`q uzishganda merganlardan kamida bittasining nishonga tekkizish ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,94</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 489,
+    "fields": {
+      "category": 4,
+      "questions": "Tovarshunos tekshirayotgan 15 ta mahsulot orasida 5 ta sifatsiz mahsulot bor. Tavakkaliga ajratilgan 3 ta mahsulotdan kamida 1tasining sifatli bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*89/91</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 490,
+    "fields": {
+      "category": 4,
+      "questions": "2 ta erkli sinovlarda A hodisaning kamida bir marta ro`y berish ehtimoli 0,75 ga teng. Agar A hodisa ikkala sinovlarda ham bir xil ehtimol bilan ro`y bersa, A hodisaning bitta sinovda ro`y berish ehtimolini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,5</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 491,
+    "fields": {
+      "category": 4,
+      "questions": "1-idishda 10 ta shar bo`lib, ulardan 8 tasi qizil va 2 tasi qora rangda. 2-idishda esa 10 ta sharlardan 7 tasi qizil 3 tasi qora rangda. Ikkala idishdan tavakkaliga bittadan shar olindi. Shu olingan 2 ta sharlardan kamida 1tasii qizil rangli bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,94</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 492,
+    "fields": {
+      "category": 4,
+      "questions": "20 ta bilet ichida 2 ta yutuqlisi bor. Agar tavakkaliga 5 ta bilet olingan bo`lsa, ulardan kamida bittasi yutuqli bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*17/38</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 493,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 12 ta oq va 8 ta qora sharlar bor. Tavakkaliga 2 ta shar olindi. Bu sharlar turli rangda bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*45/98</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 494,
+    "fields": {
+      "category": 4,
+      "questions": "10 ta detallar orasida 2 tasi nostandartdir. Tavakkaliga olingan 2 ta detallardan kamida 1tasining standart detal bo`lishi ehtimolini toping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*44/45</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 495,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 5 ta mahsulot bo`lib, ulardan 3 tasi yaroqli. Tavakkaliga 2 ta mahsulot tanlandi. Tanlangan mahsulotlardan hech bo`lmaganda 1 tasi yaroqli bo`lishi ehtimolini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,9</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 496,
+    "fields": {
+      "category": 4,
+      "questions": "Buyumlar orasidan tovarshunos oliy nav buyumlarni ajratmoqda. Tavakkaliga olingan buyumning oliy nav bo`lishi ehtimoli 0,9 ga teng. Tekshirilgan uchta buyumdan faqat bittasining oliy nav bol`ishi ehtimolini toping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,027</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 497,
+    "fields": {
+      "category": 4,
+      "questions": "Talaba o`ziga kerakli kitobni 3 ta magazindan izlamoqda. Kitobning 1-, 2-, 3- kitob magazinida bo`lishi ehtimollari mos ravishda 0,7, 0,8, 0,9 ga teng bo`lsa, kitobning faqat ikki magazinda bo`lishi ehtimolini toping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,398</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 498,
+    "fields": {
+      "category": 4,
+      "questions": "Agar tavakkaliga tanlangan simning yaroqsiz bo`lishi ehtimoli 0,1 ga teng bo`lsa, telefon stansiyasida tekshirilayotgan 3 ta aloqa simlaridan faqat bittasining yaroqli bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,027</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 499,
+    "fields": {
+      "category": 4,
+      "questions": "Agar merganning nishonga tekkizish ehtimoli 0,9 ga teng bo`lsa, mergan otgan 3 ta o`qning ham nishonga tekkan bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,729</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 500,
+    "fields": {
+      "category": 4,
+      "questions": "Uchta o`yin kubigi tavakkaliga tashlandi. Kamida bitta kubikda 5 raqami chiqish hodisasining ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*91/216</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 501,
+    "fields": {
+      "category": 4,
+      "questions": "1-idishda 1-navli mahsulotlar 40%ni, 2-idishda esa 1-navli mahsulotlar 50% ni tashkil etadi. Har bir idishdan 1tadan tavakkaliga mahsulot olindi. Olingan ikkala mahsulotning ham 1-navli bo`lmaslik ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,3</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 502,
+    "fields": {
+      "category": 4,
+      "questions": "Taxta yashikda 6 ta detallar bo`lib, ulardan 4 tasi yaroqli. Shu yashikdan tavakkaliga 2 ta detal olindi. Olingan ikkala detalning ham yaroqsiz bo`lishi ehtimolini toping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*1/15</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 503,
+    "fields": {
+      "category": 4,
+      "questions": "Hamshira o`ziga kerakli dorini 3 ta tokchadan izlamoqda. Dorining 1-, 2-, 3- tokchalarda bor bo`lishi ehtimollari mos ravishda 0,5, 0,8, 0,9 ga teng bo`lsa, izlanayotgan dorining faqat bitta tokchada bor bo`lish ehtimolini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,14</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 504,
+    "fields": {
+      "category": 4,
+      "questions": "Haridor o`ziga kerakli oyoq kiyimni 3 ta do`kondan izlamoqda. Poyafzalning 1-, 2-, 3 - do`konlarda bor bo`lish ehtimoli mos ravishda 0,7, 0,8, 0,9 ga teng. Izlanayotgan oyoq kiyimning faqat 2 ta do`konlarda bor bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,398</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 505,
+    "fields": {
+      "category": 4,
+      "questions": "10 ta mahsulot ichida 3 tasi yaroqsizdir. Tavakkaliga ular orasidan 2 ta mahsulot ajratildi. Shu ajratilgan mahsulotlardan hech bo`lmaganda bittasi yaroqsiz bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*8/15</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 506,
+    "fields": {
+      "category": 4,
+      "questions": "Idishda 6 ta oq, 5 ta qizil va 9 ta ko`k rangli, bir xil o`lchovli sharlar bor. Idishdan tavakkaliga olingan sharning rangli bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,7</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 507,
+    "fields": {
+      "category": 4,
+      "questions": "3 ta o`q uzishda kamida bitta o`qning nishonga tegish ehtimoli 0,936 ga teng bo`lsa, bitta o`q uzishda nishonga tegish ehtimolini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,6</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 508,
+    "fields": {
+      "category": 4,
+      "questions": "Tavakkaliga tanlangan musbat, ikki xonali, butun sonning 2 ga ham, 3 ga ham bo`linmaslik ehtimolini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>* 1/3</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 509,
+    "fields": {
+      "category": 4,
+      "questions": "Tavakkaliga tanlangan musbat, butun sonning 2 ga yoki 3 ga bo`linmaslik ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*5/6</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 510,
+    "fields": {
+      "category": 4,
+      "questions": "Birinchi idishda 5 ta o`q, 11 ta qora, 8 ta qizil rangli sharlar bor. Ikkinchi idishda esa 10 ta oq, 8 ta qora, 6 ta qizil sharlar bor. Ikkala idishdan tavakkaliga 1 tadan sharlar olindi. Olingan ikkala sharning ham bir xil rangli bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,323</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 511,
+    "fields": {
+      "category": 4,
+      "questions": "Ikki idishda 10 tadan sharlar bo`lib, 1-idishda 8 ta qizil 2 ta qora, 2-sida esa, 7 ta qizil 3 ta qora sharlar bor. Ikkala idishdan tavakkaliga 1 ta dan shar olindi. Shu 2 ta shardan kamida bittasining qizil rangli bo`lish ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,94</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 512,
+    "fields": {
+      "category": 4,
+      "questions": "Korxonaga keladigan mahsulotlarning 50% ini 1-zavod, 40% ini 2-zavod, 10% ini esa 3- zavodda ishlab chiqariladi. Shu mahsulotlarning yaroqsiz bo`lishi 1-zavod uchun 5% ini, 2- zavod uchun 3% ini, 3-zavod uchun esa 2% ni tashkil etadi. Tavakkaliga tanlangan mahsulotning yaroqsiz bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,039</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 513,
+    "fields": {
+      "category": 4,
+      "questions": "1-idishda 8 ta oq, 2 ta qora sharlar,2-idishda 6 ta oq, 4 ta qora sharlar mavjud. 1-idishdan tavakkaliga bitta shar olinib, 2- idishga solingan. So`ngra 2- idishdan tavakkaliga 1 ta shar olingan. Shu olingan sharning oq rangli bo`lish ehtimolini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*34/50</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 514,
+    "fields": {
+      "category": 4,
+      "questions": "Yashikdagi detallardan 12 tasi 1- zavodga, 20 tasi 2-zavodga, 18 tasi esa 3-zavodga tegishli bo`lgan detallardir. Tanlangan detalning sifatli (yaroqli) bo`lish ehtimoli 1- zavodda ishlab chiqarilgan detallar uchun 0,9 ga, 2- -va 3-zavodlar uchun esa bu ehtimol mos ravishda 0,6 va 0,9 ga teng. Yashikdan tavakkaliga 1ta detal tanlandi. Shu detalning yaroqli bo`lish ehtimolini toping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,78</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 515,
+    "fields": {
+      "category": 4,
+      "questions": "Dominoning to`liq to`plamidan (28 dona) tavakkaliga 1 tasi olindi. 2-tavakkaliga olingan dominoni 1-tanlangan dominoga ulash mumkin bo`lish ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*7/18</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 516,
+    "fields": {
+      "category": 4,
+      "questions": "Yig`uv sexiga 1-avtomatdan 20%, 2-avtomatdan 30% 3- avtomatdan esa 50% detallar kelib tushadi. 1-avtomatda tayyorlangan detallarning 0,2% yaroqsiz, 2-avtomatda tayyorlangan detallarning 0,3% yaroqsiz va 3-avtomatda tayyorlangan detallarning 0,1% yaroqsiz bo`lsa, tavakkaliga olingan detalning yaroqsiz bo`lish ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,0018</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 517,
+    "fields": {
+      "category": 4,
+      "questions": "1-idishda 8 ta lampa bo`lib, ulardan 2 tasi yaroqsiz, 2-idishda 10 ta lampa bo`lib, ulardan 4 tasi yaroqsizdir. Har bir idishdan tavakkaliga bittadan lampa olindi. Keyin shu tanlangan lampadan yana biri ixtiyoriy ravishda tanlandi. Olingan lampaning yaroqsiz bo`lish ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*13/40</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 518,
+    "fields": {
+      "category": 4,
+      "questions": "Guruhda 4 ta mergan bo`lib, ulardan har birini nishonga tekkizish ehtimoli 0,8 ga teng bo’lsa 3 tasini nishonga tegiza olish ehtimolini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,4096</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 519,
+    "fields": {
+      "category": 4,
+      "questions": "Guruhda 4 ta mergan bo`lib, ulardan har birini nishonga tekkizish ehtimoli 0,8 ga teng bo’lsa eng katta ehtimollikga ega bo’lgan otilgan o’qlar soni topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*4</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 520,
+    "fields": {
+      "category": 4,
+      "questions": "Tаvаkkаligа оlingаn ikki musbаt sоnning birinchisi 3 dаn, ikkinchisi 2 dаn kаttа emаs. Ikkаlа sоnning yig‘indisi 4 dаn, аyirmаsi 0.5 dаn kаttа bo‘lmаslik hоdisаsining ehtimоli tоpilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,48958</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 521,
+    "fields": {
+      "category": 4,
+      "questions": "Qurilmаning ishdаn chiqishi uchun uchtа erkli dеtаldаn kаmidа bittаsining ishdаn chiqishi еtаrli. Birinchi dеtаlning ishdаn chiqish hоdisаsi А, ehtimоli 0,3, ikkinchi dеtаlning ishdаn chiqish hоdisаsi B, ehtimоli 0,2, uchinchi dеtаlning ishdаn chiqish hоdisаsi C, ehtimоli 0,1 gа tеng. Qurilmаning ishdаn chiqmаslik hоdisаsining ehtimоli tоpilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,504</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 522,
+    "fields": {
+      "category": 4,
+      "questions": "Idishdagi 25 ta mahsulоtdan 5 tasi sifatsiz bo`lsa, ulardan ketma-ket uchtasi оlinganda (takrоrsiz), uchchalasini sifatsiz bo`lish ehtimоlini tоping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*116/230</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 523,
+    "fields": {
+      "category": 4,
+      "questions": "Birinchi merganning nishоnga tegish ehtimоli 0,8 va ikkinchisiniki 0,7 ga teng. Merganlar nishоnga bir vaqtda o`q оtganlarida bitta o`qni nishоnga tegmasalik ehtimоlini tоping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*31/50</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 524,
+    "fields": {
+      "category": 4,
+      "questions": "3 ta idishlarda sharlar bo`lib, birinchi idishda 2 ta qizil, 6 ta oq sharlar bor. Ikkinchi idishda esa, 3 ta qizil va 8 ta oq sharlar, uchinchi idishda esa 6 ta qizil va 5 ta oq sharlar bor. Tavakkaliga uchalasidan bitadan olganda uhalasi ham oq chiqish ehtimolligi topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*30/121</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 525,
+    "fields": {
+      "category": 4,
+      "questions": "Ichida 4 ta shar bo`lgan idishda 1 ta oq ,3 ta qizil shar bor. Ketma-ket 2 ta shar olinsa ikkalasini qizil chiqish ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,5</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 526,
+    "fields": {
+      "category": 4,
+      "questions": "3 ta bir xil idishlarda detallar mavjud bo`lib, 1-idishdagi detallarning qismi yaroqsizdir. Qolgan 2 ta idishlarda esa yaroqsiz detallar yoq. Tekshiruvchi tavakkaliga ixtiyoriy idishdan bitta detal olgan. Shu olingan detalning yaroqsiz bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*1/9</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 527,
+    "fields": {
+      "category": 4,
+      "questions": "20 ta mergandan 6 tasining o`q uzganda nishonga tegishi ma’lum. Tavakkaliga tanlangan merganning nishonga tekkizish ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>* 0,3</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 528,
+    "fields": {
+      "category": 4,
+      "questions": "Yerga ekiladigan o`simliklarning 50% unib chiqadi. Tavakkaliga tanlanib, ekilgan o`simlikning unib chiqish ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,5</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 529,
+    "fields": {
+      "category": 4,
+      "questions": "20 ta lampadan 18 tasi yaroqli. Ixtiyopiy olingan. 1 ta olingan lampaning yaroqli bo`lish ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,9</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 530,
+    "fields": {
+      "category": 4,
+      "questions": "Korxonada 3 ta erkak va 5 ta ayol ishlaydi.Ikkita ajratib olingan ishchidan birini ayol ikkinchisini erkakligi ehtimolligi topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*15/28</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 531,
+    "fields": {
+      "category": 4,
+      "questions": "Ishlab chiqarilayotgan mahsulotning talabga muvofiqligini 2 ta tovarshunos tekshiradi. Mahsulotlarning 1- tovarshunosga kelib tushish ehtimoli 0,55 ga, 2- tovarshunosga kelib tushish ehtimoli 0,45 ga teng. Mahsulotni talabga muvofiq deb qabul qilish ehtimoli 1- tovarshunos uchun 0,9 ga teng, 2- tovarshunos uchun esa bu ehtimol 0,98 ga teng. Tekshirishda mahsulot talabga muvofiq deb qabul qilindi. Bu tovarni 2-tovarshunos tekshirgan bo`lish ehtimolini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,47</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 532,
+    "fields": {
+      "category": 4,
+      "questions": "5 ta zavod sexida tayyorlangan detallarning 2 tasini ishga yariqsizligi ma’lum bo’lsa 4ta tasodifan olingan detalning 2 nasini yariqsizli ehtimolligi topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,6</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 533,
+    "fields": {
+      "category": 4,
+      "questions": "Yig`ish sexiga 1-dastgohdan barcha detallarning 40%, 2-va 3- dastgohdan ham 30% kelib tushadi. Har bir dastgoh uchun yaroqsiz detal ishlab chiqarish ehtimollari mos ravishda 0,01, 0,03 va 0,05 ga teng. Tavakkaliga olingan detal yaroqsiz ekanligi ma`lum bo`ldi. Bu detal 1-dastgohda ishlab chiqarilganligi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*1/7</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 534,
+    "fields": {
+      "category": 4,
+      "questions": "Guruhda 5na qiz va 5ta o’g’il bola bor, tasodifan 2 ta ajratilgan talabadan ikkalasini ham qizbola chiqish ehtimolligi topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*2/9</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 535,
+    "fields": {
+      "category": 4,
+      "questions": "Talabalarning saralash sport musobaqalarida qatnashish uchun 1-guruhdan 4 ta talaba, 2- guruhdan 6 ta talaba va 3- guruhdan 5 ta talaba ajratilgan. 1-guruh talabasining institut terma komandasiga kirish ehtimoli 0,9 ga, 2-va 3-guruh talabalari uchun esa bu ehtimol 0,7 va 0,8 ga teng. Tavakkaliga olingan talaba musobaqa natijasida terma komanda safiga olin1sh ehtimolligi topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*17/25</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 536,
+    "fields": {
+      "category": 4,
+      "questions": "18 ta mergandan iborat 4 ta guruh bo`lib, 1-guruhdagi 5 ta merganning nishonga tekkizish ehtimoli 0,8 ga, 2-guruhdagi 7 ta merganning nishonga tekkizish ehtimoli 0,7 ga teng. 3-guruhdagi 4 ta mergan uchun bu ehtimol 0,6 ga, qolgan 4-guruhdagi 2 ta merganning nishonga tekkizish ehtimoli 0,5 ga teng. Tavakkaliga tanlangan mergan nishonga qarata o`q uzdi, lekin nishonga tegmadi. Qaysi guruhga tegishli mergan uchun bu ehtimol kattadir?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*2-guruh uchun.</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 537,
+    "fields": {
+      "category": 4,
+      "questions": "Oilada 3 ta bola bor ,tasodifan ajratilgan 2 –ta bolani qiz bola cheqish ehtimolligi topilsin (p=g)..",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>* 3/8</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 538,
+    "fields": {
+      "category": 4,
+      "questions": "Talaba 25 ta savoldan 20 tasiga javob bera oladi. Talabani atestatsiyadan o’ta olish chastotasi topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,8</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 539,
+    "fields": {
+      "category": 4,
+      "questions": "Tanga 4 marta tashlandi. «Gerbli» tomon ko`pi bilan 2 marta tushish ehtimolini toping",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>* 11/16</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 540,
+    "fields": {
+      "category": 4,
+      "questions": "2 marta o`q otishda hech bo`lmaganda bir marta mo`ljalga o`q tekkizish ehtimoli 0,96 ga teng. 4 marta o`q otishda, 3 marta mo`ljalga tekkizish ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,4096</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 541,
+    "fields": {
+      "category": 4,
+      "questions": "Talaba dasturning 60 ta savolidan 50 tasini biladi. Imtihon bileti 3 ta savoldan iborat quyidagi hodisalarning ehtimolini toping: Talaba faqat 2 ta savolga javobni biladi",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*75/216</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 542,
+    "fields": {
+      "category": 4,
+      "questions": "Agar 1 ta sinashda biror hodisaning ro`y berish ehtimoli 0,3 ga teng bo`lsa, u holda 3 ta erkli sinashda shu hodisaning kamida 2 marta ro`y berish ehtimolini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,216.</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 543,
+    "fields": {
+      "category": 4,
+      "questions": "O`yin kubigi 3 marta tashlandi. Bunda 6 raqamining 2 marta tushish ehtimolini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*5/72</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 544,
+    "fields": {
+      "category": 4,
+      "questions": "Tanga tavakkaliga 8 marta tashlangan. Bunda «Gerbli» tomoni 6 marta tushish ehtimolini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*7/64</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 545,
+    "fields": {
+      "category": 4,
+      "questions": "Agar har bir sinashda A hodisaning ro`y berish ehtimoli 0,4 ga teng bo`lsa, 5 ta erkli sinashda hodisaning ko`pi bilan bir marta ro`y berish ehtimolini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,337</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 546,
+    "fields": {
+      "category": 4,
+      "questions": "Tanga 3 marta tashlangan. «Gerbli» tomoni kamida 2 marta tushish ehtimolini toping.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,5</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 547,
+    "fields": {
+      "category": 4,
+      "questions": "Agar merganning 1 ta o`q uzganda nishonga tekkizish ehtimoli 0,9 ga teng bo`lsa, ketma-ket tavakkaliga uchta o`q uzganda ko`pi bilan ikki marta nishonga tekkizish ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,271</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 548,
+    "fields": {
+      "category": 4,
+      "questions": "2 teng kuchli shaxmatchi shaxmat o`ynamoqda. Qaysi birida yutish ehtimoli kattaroq, 4 partiyadan 3 tasini yutishmi yoki 5 partiyadan 4 tasini yutishmi?",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*4 partiyadan 3 tasi.</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 549,
+    "fields": {
+      "category": 4,
+      "questions": "Tanga 4 marta tashlandi. «Gerbli» tomoni kamida 3 marta tushish ehtimolini topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*5/16</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 550,
+    "fields": {
+      "category": 4,
+      "questions": "Agar yaroqsiz detal ishlab chiqarish ehtimoli 0,01 ga teng bo`lsa, tavakkaliga olingan 3 ta detaldan 2 tasining yaroqli bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,03</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 551,
+    "fields": {
+      "category": 4,
+      "questions": "O`yin kubigi tavakkaliga 3 marta tashlanganda 2 raqamining kamida 1 marta chiqish ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,42</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 552,
+    "fields": {
+      "category": 4,
+      "questions": "Do`konga kelgan mahsulotlar orasida yaroqsiz mahsulotlar 10% ni tashkil etadi. Tavakkaliga tanlangan 3 ta mahsulotdan kamida 1 tasining yaroqli bo`lishi ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,999</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 553,
+    "fields": {
+      "category": 4,
+      "questions": "Nishonga qarata o`q uzilganda, o`qning nishonga tegish ehtimoli 0,9 ga teng bo`lsa, 3 marta o`q uzilganda uchala o`qning ham nishonga tegmaslik ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,001</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 554,
+    "fields": {
+      "category": 4,
+      "questions": "Yaroqsiz detalni ishlab chiqarish ehtimoli 0,05 ga teng bo`lsa, tavakkaliga olingan 5 ta detallar orasida 4 tasining yaroqli bo`lishi ehtimoli topilsin.",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>*0,2</strong></p>"
+    }
+  },
+  {
+    "model": "home.test",
+    "pk": 555,
+    "fields": {
+      "category": 4,
+      "questions": "Ma`lum o`simlik urug’ining unib chiqishi 70% ni tashkil etadi. 5 ta ekilgan urug`dan kamida 4 tasining unib chiqish ehtimoli topilsin",
+      "image": "",
+      "status": "False",
+      "answer": "<p><strong>0,528</strong></p>"
+    }
+  }
+]
